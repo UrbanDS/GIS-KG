@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="//unpkg.com/3d-force-graph@1"></script>
+    <script src="//unpkg.com/d3-dsv"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="js/postprocessing/UnrealBloomPass.js"></script> -->
+    <script
+      src="https://kit.fontawesome.com/07c230fb13.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="data-set-loader.js"></script> -->
+
+    <link rel="stylesheet" href="style.css" />
+    <title>GISBOK 3D Force Graph</title>
+  </head>
+  <body>
+    <body>
+      <div class="side-bar">
+        <div class="header">
+          <h1 class="theme">GIS Ontology</h1>
+          <div class="input-area">
+            <input
+              id="query"
+              type="text"
+              placeholder="Search"
+              onchange="query()"
+            />
+          </div>
+        </div>
+
+        <div class="result"></div>
+      </div>
+      <div id="3d-graph"></div>
+
+      <div class="graph-data"></div>
+
+      <script src="index.js"></script>
+    </body>
+  </body>
+</html>
