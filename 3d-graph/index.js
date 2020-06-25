@@ -88,19 +88,32 @@ const adjust_data = (info) => {
       const filterLink = [];
 
       const str = info.toLowerCase();
-      res.nodes.map((a_node) => {
-        const searchTerm = a_node.id.toLowerCase();
-        if (searchTerm.indexOf(str) >= 0) {
-          filterNode.push(a_node);
-        }
-      });
       res.links.map((a_link) => {
         const searchSource = a_link.source.toLowerCase();
         const searchTarget = a_link.target.toLowerCase();
+
         if (searchSource.indexOf(str) >= 0 || searchTarget.indexOf(str) >= 0) {
           filterLink.push(a_link);
         }
+        // if (searchSource.indexOf(str) >= 0) {
+        //   filterLink.push(a_link);
+        // }
       });
+
+      res.nodes.map((a_node) => {
+        const searchTerm = a_node.id.toLowerCase();
+        filterLink.map((a_link) => {
+          const filterSource = a_link.source.toLowerCase();
+          const filterTarget = a_link.target.toLowerCase();
+          if (
+            searchTerm.indexOf(filterSource) >= 0 ||
+            searchTerm.indexOf(filterTarget) >= 0
+          ) {
+            filterNode.push(a_node);
+          }
+        });
+      });
+
       // console.log(filterNode);
       // console.log(filterLink);
       const filterData = { nodes: filterNode, links: filterLink };
