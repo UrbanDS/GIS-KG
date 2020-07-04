@@ -92,6 +92,48 @@ h1 {
   width: 350px;
 }
 
+.legend {
+  position: fixed;
+  border: 1px white solid;
+  border-radius: 10px;
+}
+
+.legend > canvas {
+  border-radius: 10px;
+}
+
+#legend-c {
+  width: 300px;
+  height: 300px;
+  bottom: 10px;
+  right: 10px;
+}
+
+#caption {
+  font: 36px "Advent Pro";
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  text-align: center;
+  color: #ccc;
+}
+#caption > b {
+  font-size: 60px;
+}
+
+#selector {
+  position: absolute;
+  left: 400px;
+  bottom: 30px;
+  z-index: 1;
+}
+#selector > select {
+  background: #000;
+  width: 300px;
+  color: #ccc;
+  font: 16px serif;
+}
+
 /* #3d-graph {
   width: 100%;
   height: 100%;

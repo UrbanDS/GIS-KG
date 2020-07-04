@@ -6,39 +6,105 @@
     <script src="//unpkg.com/3d-force-graph@1"></script>
     <script src="//unpkg.com/d3-dsv"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <!-- <script src="js/postprocessing/UnrealBloomPass.js"></script> -->
+    <!-- <script src="./UnrealBloomPass.js"></script> -->
     <script
       src="https://kit.fontawesome.com/07c230fb13.js"
       crossorigin="anonymous"
     ></script>
-
-    <!-- <script src="data-set-loader.js"></script> -->
+    <script src="//unpkg.com/jquery"></script>
+    <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/three-spritetext"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+      å
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Advent+Pro:200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
     <title>GISBOK 3D Force Graph</title>
   </head>
   <body>
-    <body>
-      <div class="side-bar">
-        <div class="header">
-          <h1 class="theme">GISBOK</h1>
-          <div class="input-area">
-            <input
-              id="query"
-              type="text"
-              placeholder="Search"
-              onchange="query()"
-            />
-          </div>
+    <div class="side-bar">
+      <div class="header">
+        <h1 class="theme">GISBOK</h1>
+        <div class="input-area">
+          <input
+            id="query"
+            type="text"
+            placeholder="Search"
+            onchange="query()"
+          />
         </div>
-
-        <div class="result"></div>
       </div>
-      <div id="3d-graph"></div>
 
-      <div class="graph-data"></div>
+      <div class="result"></div>
+    </div>
+    <div id="selector">
+      <select
+        onchange="categoryDataDisplay()"
+        value="ALL Category"
+        id="selectVal"
+      >
+        <option value="ALL">ALL Category</option>
+        <option value="DA">Domain Applications</option>
+        <option value="DM">Data Management</option>
+        <option value="PD">Programming and Development</option>
+        <option value="CV">Cartography and Visualization</option>
+        <option value="FC">Foundational Concepts</option>
+        <option value="KE">Knowledge Economy</option>
+        <option value="AM">Analytics and Modeling</option>
+        <option value="DC">Data Capture</option>
+        <option value="CP">Computing Platforms</option>
+        <option value="GS">GIS&T and Society</option>
+      </select>
+    </div>
+    <div id="3d-graph"></div>
+    <div id="caption" class="mve">
+      <b>Geo 3D graph</b> <br />
+      A Knowledge Graph (Body of Knowledge)
+    </div>
 
-      <script src="index.js"></script>
-    </body>
+    <div id="legend-c" class="legend"></div>
+    <script type="x-shader/x-vertex" id="vertex-shader">
+       attribute vec3 position;
+       uniform mat4 projectionMatrix;
+       uniform mat4 modelViewMatrix;
+       uniform float size;
+       void main(void) {
+      vec4 modelPos =  modelViewMatrix * vec4(position, 1.0);
+      gl_Position = projectionMatrix * modelPos;
+      gl_PointSize = size * 1.0e4 / abs(modelPos.z);
+
+      //vColor = aColor;
+       }
+    </script>
+    <script type="x-shader/x-fragment" id="fragment-shader">
+       precision highp float;
+       uniform vec3 color;
+       void main(void) {
+      float d = length(gl_PointCoord - vec2(.5, .5));
+      float k = 1.0 - d / .5;
+      if (k < 0.0)
+      	discard;
+      gl_FragColor = vec4(color, 1.5 * exp(-d * d / .06));
+       }
+    </script>
+    <script src="index.js"></script>
   </body>
 </html>
