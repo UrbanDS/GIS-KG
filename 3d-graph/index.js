@@ -277,7 +277,7 @@ const nodeRender = function (hasText) {
         color: {
           value: new THREE.Color(colors[aname.indexOf(n.name.substr(0, 2))]),
         },
-        size: { value: hasText < 0 ? n.val * 0.1 : n.val * 2.5 },
+        size: { value: hasText < 0 ? n.val * 0.1 : n.val * 3 },
       },
       vertexShader: document.getElementById("vertex-shader").textContent,
       fragmentShader: document.getElementById("fragment-shader").textContent,
