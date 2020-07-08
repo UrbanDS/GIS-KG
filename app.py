@@ -106,7 +106,7 @@ def search():
             index_sort = np.array(similarity_score_matrix).argsort()
             index_sort = np.squeeze(index_sort)
             results = []
-            for iii in range(0, 10):
+            for iii in range(0, 100):
                 try:
                     url = id_url_dict[papers_info.index[index_sort[-1 - iii]]]
                 except KeyError:
