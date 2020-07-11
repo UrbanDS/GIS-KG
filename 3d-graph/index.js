@@ -1,17 +1,30 @@
 const search = document.querySelector("#query");
 const result = document.querySelector(".result");
 
+// const colors = [
+//   "#aec7e8",
+//   "#ffbb78",
+//   "#98df8a",
+//   "#ff9896",
+//   "#c5b0d5",
+//   "#c49c94",
+//   "#f7b6d2",
+//   "#c7c7c7",
+//   "#dbdb8d",
+//   "#9edae5",
+// ];
+
 const colors = [
-  "#aec7e8",
-  "#ffbb78",
-  "#98df8a",
-  "#ff9896",
-  "#c5b0d5",
-  "#c49c94",
-  "#f7b6d2",
-  "#c7c7c7",
-  "#dbdb8d",
-  "#9edae5",
+  "#935529",
+  "#88b04b",
+  "#009b77",
+  "#dd4124",
+  "#d65076",
+  "#efc050",
+  "#5b5ea6",
+  "#9b2335",
+  "#dfcfbe",
+  "#fa9a85",
 ];
 
 const aname = ["DA", "DM", "PD", "CV", "FC", "KE", "AM", "DC", "CP", "GS"];
@@ -79,20 +92,41 @@ const query = async () => {
       const themeCon = document.createElement("h3");
       themeCon.innerText = "Tree Node: " + treeNode;
       result.appendChild(themeCon);
+      const years = readIntervel();
+
       paperList.map((a_data) => {
-        const title = a_data.PaperTitle;
-        const abstract = a_data.Abstract;
-        const link = a_data.url;
-        const container = document.createElement("div");
-        const titleCon = document.createElement("a");
-        const abstractCon = document.createElement("p");
-        titleCon.innerText = title.toUpperCase();
-        titleCon.setAttribute("href", link);
-        titleCon.setAttribute("target", "_blank");
-        abstractCon.innerText = abstract;
-        container.appendChild(titleCon);
-        container.appendChild(abstractCon);
-        result.appendChild(container);
+        //fiter
+        const year = parseInt(a_data.publishTime.substring(0, 4));
+        if (years.indexOf(year) != -1) {
+          const title = a_data.PaperTitle;
+          const abstract = a_data.Abstract;
+          const link = a_data.url;
+          // const author = "Author: " + a_data.author;
+          const author =
+            a_data.author == ""
+              ? "Author: Not found "
+              : "Author: " + a_data.author;
+
+          const publish = "Publish Time: " + a_data.publishTime;
+          const container = document.createElement("div");
+          const titleCon = document.createElement("a");
+          const abstractCon = document.createElement("p");
+          const info = document.createElement("p");
+          const authorCon = document.createElement("section");
+          const publishCon = document.createElement("section");
+          titleCon.innerText = title.toUpperCase();
+          titleCon.setAttribute("href", link);
+          titleCon.setAttribute("target", "_blank");
+          authorCon.innerText = author;
+          publishCon.innerText = publish;
+          abstractCon.innerText = abstract;
+          container.appendChild(titleCon);
+          info.appendChild(authorCon);
+          info.appendChild(publishCon);
+          container.appendChild(info);
+          container.appendChild(abstractCon);
+          result.appendChild(container);
+        }
       });
     }
   } catch (error) {
@@ -347,6 +381,45 @@ const createStaticScene = function (div_name, callback) {
   div.appendChild(renderer.domElement);
   callback(scene, camera);
   renderer.render(scene, camera);
+};
+
+const getInterval = () => {
+  var time1 = document.getElementById("time1").value;
+  var time2 = document.getElementById("time2").value;
+  var lowNum;
+  var highNum;
+  if (time1 == "" && time2 == "") {
+    return [1950, 2025];
+  } else if (time1 == "" && time2 != "") {
+    highNum = parseInt(time2);
+    return [1950, highNum];
+  } else if (time1 != "" && time2 == "") {
+    lowNum = parseInt(time1);
+    return [lowNum, 2025];
+  } else {
+    lowNum = parseInt(time1);
+    highNum = parseInt(time2);
+    return [lowNum, highNum];
+  }
+};
+
+const readIntervel = () => {
+  var list = [];
+  var stringIntervel = getInterval();
+  var lowNum = stringIntervel[0];
+  var highNum = stringIntervel[1];
+
+  if (highNum - lowNum >= 0) {
+    for (var i = lowNum; i <= highNum; i++) {
+      list.push(i);
+    }
+  } else {
+    for (var i = highNum; i <= lowNum; i++) {
+      list.push(i);
+    }
+  }
+
+  return list;
 };
 
 $(() => {

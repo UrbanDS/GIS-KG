@@ -45,10 +45,17 @@ body {
   margin-top: 140px;
 }
 
+.result > div {
+  margin-top: 10px;
+}
 .result > div > a {
   color: deepskyblue;
 }
 
+.result > div > p > section {
+  margin-top: 1px;
+  font-style: italic;
+}
 .scene-tooltip {
   /* z-index: 2; */
   width: 200px;
@@ -65,7 +72,7 @@ body {
   padding: 5px 20px;
 }
 input {
-  height: 20px;
+  /* height: 20px; */
   width: 280px;
   box-shadow: var(--shadow);
   border-radius: 0.4rem;
@@ -75,6 +82,20 @@ input {
 
 input:hover {
   background-color: #d1e9e9;
+}
+
+.timeFilter {
+  margin-top: 10px;
+}
+.timeFilter > input {
+  width: 60px;
+  border-radius: 0.4rem;
+}
+#time1 {
+  width: 50px;
+}
+#time2 {
+  width: 50px;
 }
 
 h1 {
@@ -88,7 +109,7 @@ h1 {
   position: fixed;
   z-index: 2;
   background-color: wheat;
-  height: 140px;
+  height: 160px;
   width: 350px;
 }
 

@@ -21,9 +21,14 @@ with torch.no_grad():
     ebk = pd.read_pickle('id_title_abstract_embedding.pickle')
     scibert_embedding_graph = np.squeeze(np.load('gisbok_bert_embedding.npy'))
     df_papers = pd.read_pickle("nodes_papers.pickle").set_index('topic')
+    # storeInfo
     with open('id_url_dict.pickle', 'rb') as f_url:
         id_url_dict=pickle.load(f_url)
 
+    df0 = pd.read_table("./GisPapersAddYear copy.csv")
+    timeData = pd.DataFrame(df0)
+    df1 = pd.read_csv("./GisPaperAuthorAffiliations.csv")
+    nameData = pd.DataFrame(df1)
 #
 # def cities_import() -> List[Dict]:
 #     config = {
@@ -106,15 +111,30 @@ def search():
             index_sort = np.array(similarity_score_matrix).argsort()
             index_sort = np.squeeze(index_sort)
             results = []
-            for iii in range(0, 10):
+            for iii in range(0, 100):
+                trackId = papers_info.index[index_sort[-1 - iii]]
                 try:
-                    url = id_url_dict[papers_info.index[index_sort[-1 - iii]]]
+                    url = id_url_dict[trackId]
+                    #  through this papers_info.index[index_sort[-1 - iii]] index 
                 except KeyError:
                     url = ''
+
+                try:
+                    authorList = nameData.loc[nameData["PaperId"] == trackId].iloc[:, 4]
+                    authorSet = set(authorList)
+                    author = ", ".join(authorSet)
+                except KeyError:
+                    author = ""
+
+                try:
+                    publishTime0 = timeData.loc[timeData["PaperId"] == trackId]["Date"]
+                    publishTime = ", ".join(publishTime0)
+                except KeyError:
+                    publishTime = ""
                 results.append({"PaperId":str(papers_info.index[index_sort[-1 - iii]]),
                                 "PaperTitle":papers_info['PaperTitle'].iloc[index_sort[-1 - iii]],
                                 "Abstract": papers_info['abstract'].iloc[index_sort[-1 - iii]],
-                                'url': url
+                                'url': url, "publishTime": publishTime, "author": author
                                 })
             result_obj = {'treenode':treenode, 'paper_list':results}
             js = json.dumps(result_obj)

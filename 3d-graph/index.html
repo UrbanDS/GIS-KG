@@ -50,6 +50,27 @@
             placeholder="Search"
             onchange="query()"
           />
+          <div class="timeFilter">
+            <label for="time1">From: </label>
+            <input
+              id="time1"
+              type="number"
+              placeholder="YYYY"
+              min="1950"
+              max="2025"
+              step="1"
+            />
+            <label for="time2">to: </label>
+            <input
+              id="time2"
+              type="number"
+              placeholder="YYYY"
+              min="1950"
+              max="2025"
+              step="1"
+            />
+            <input type="submit" onclick="query()" />
+          </div>
         </div>
       </div>
 
