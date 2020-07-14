@@ -1,0 +1,143 @@
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --yellow: #efc337;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+
+  color: var(--dark);
+}
+body {
+  background: #ffffff;
+  line-height: 1.4;
+}
+
+header {
+  background-color: var(--yellow);
+  color: var(--light);
+  height: 120px;
+  display: grid;
+  grid-template-columns: 30% auto;
+
+  /* align-items: center; */
+}
+header > div {
+  justify-self: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 2rem;
+}
+header > nav {
+  justify-self: right;
+  /* align-self: center; */
+  margin-right: 20px;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+ul a {
+  text-decoration: none;
+  color: var(--light);
+  font-weight: bold;
+}
+ul a:hover {
+  color: var(--light);
+  font-size: 2rem;
+}
+
+.back {
+  margin-top: 20px;
+  background-image: url(mountain.jpeg);
+  background-size: cover;
+  color: var(--light);
+  width: 800px;
+  height: 600px;
+  background-position: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.back h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: var(--light);
+}
+.back p {
+  font-size: 1.3rem;
+  margin-top: 0;
+  color: var(--light);
+}
+
+main {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+  display: grid;
+  justify-items: center;
+  /* justify-content: center; */
+  /* grid-gap: 30px; */
+}
+
+.input {
+  margin-top: 50px;
+  width: 800px;
+}
+
+#query {
+  width: 800px;
+  height: 30px;
+  box-shadow: var(--shadow);
+  border-radius: 0.4rem;
+  background-color: #f0f0f0;
+}
+
+#query:hover {
+  background-color: #d1e9e9;
+}
+
+/* .result {
+  width: 800px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+} */
+
+#result {
+  margin-top: 50px;
+  /* display: grid;
+  grid-gap: 30px; */
+  width: 800px;
+}
+
+#result > div > h4 {
+  font-size: 1.5rem;
+}
+
+#result > div > div {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  background: var(--dark);
+  color: var(--light);
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-size: 2rem;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GISBOK</title>
+    <!-- <script
+      src="https://kit.fontawesome.com/07c230fb13.js"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>Gis&T Body of Knowledge</div>
+      <nav>
+        <ul>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./index.html">TOPIC</a></li>
+          <li><a href="./contact.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="back">
+        <h1>Welcome to the GIS&T Body of Knowledge!</h1>
+        <p>
+          This Body of Knowledge documents the domain of geographic information
+          science and its associated technologies (GIS&T). By providing this
+          content in a new digital format, UCGIS aims to continue supporting the
+          GIS&T higher education community and its connections with the
+          practitioners.
+        </p>
+      </section>
+      <section class="search">
+        <div class="input">
+          <input
+            type="text"
+            placeholder="Search..."
+            id="query"
+            value="Domains of Geographic Information"
+            onchange="query()"
+          />
+        </div>
+        <div id="result"></div>
+      </section>
+    </main>
+    <footer>
+      <div>GISBOK</div>
+    </footer>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>

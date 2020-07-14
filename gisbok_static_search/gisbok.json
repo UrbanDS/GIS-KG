@@ -1,0 +1,3950 @@
+[
+  {
+    "topic": "Epistemology",
+    "theme": "Philosophical",
+    "area": "foundational concepts",
+    "learning_objective": "Describe epistemology in the context of geographic information science & technologies"
+  },
+  {
+    "topic": "Epistemology",
+    "theme": "Philosophical",
+    "area": "foundational concepts",
+    "learning_objective": "Explain how some epistemologies differ from others"
+  },
+  {
+    "topic": "Epistemology",
+    "theme": "Philosophical",
+    "area": "foundational concepts",
+    "learning_objective": "Compare and contrast epistemology and ontology"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Differentiate between absolute and relative descriptions of location"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Define the four basic dimensions or shapes used to describe spatial objects (i.e., points, lines, regions, volumes)"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Discuss the contributions that different perspectives on the nature of space bring to an understanding of geographic phenomenon"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Justify the discrepancies between the nature of locations in the real world and representations thereof (e.g., towns as points)"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Select appropriate spatial metaphors and models of phenomena to be represented in GIS"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Develop methods for representing non-cartesian models of space in GIS"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Discuss the advantages and disadvantages of the use of cartesian/metric space as a basis for GIS and related technologies"
+  },
+  {
+    "topic": "Space",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Differentiate between common-sense, Cartesian/metric, relational, relativistic, phenomenological, social constructivist, and other theories of the nature of space"
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Differentiate between phenomenological and mathematical theories of the nature of time"
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Describe how calendar time, clock time, and world time is defined and measured"
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Recognize the roles of time in “static” and “dynamic” GISystems"
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Compare and contrast discrete, continuous, and spacetime perspectives of time to model dynamics in geographical phenomena and human-environment interactions"
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Exemplify ordinal, linear, cyclical frames of reference and the temporal relationships"
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Choose appropriate representations of time based on the behavior type of a dynamic system (among static, oscillating, chaotic and stochastic)."
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Compare different temporal resolutions of spatio-temporal data"
+  },
+  {
+    "topic": "Time",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Demonstrate awareness of current advance in collecting, managing and analyzing spatio-temporal data"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Formalize attribute values and domains in terms of set theory"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Develop alternative forms of representations for situations in which attributes do not adequately capture meaning"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Define Stevens’ four levels of measurement (i.e., nominal, ordinal, interval, ratio)"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Describe particular geographic phenomena in terms of attributes"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Determine the proper uses of attributes based on their domains"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Characterize the domains of attributes in a GIS, including continuous and discrete, qualitative and quantitative, absolute and relative"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Recognize situations and phenomena in the landscape which cannot be adequately represented by formal attributes, such as aesthetics"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Compare and contrast the theory that properties are fundamental (and objects are human simplifications of patterns thereof) with the theory that objects are fundamental (and properties are attributes thereof)"
+  },
+  {
+    "topic": "Properties",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Recognize attribute domains that do not fit well into Stevens’ four levels of measurement such as cycles, indexes, and hierarchies"
+  },
+  {
+    "topic": "Networks Defined",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Describe networks that apply to specific applications or industries"
+  },
+  {
+    "topic": "Networks Defined",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Define different interpretations of cost in various routing applications"
+  },
+  {
+    "topic": "Networks Defined",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Create a data set with network attributes and topology"
+  },
+  {
+    "topic": "Networks Defined",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Define the following terms pertaining to a network: vertex, edges, nodes, links, loops, parallel edges, route, walk, path, circuit, cycle, the degree of a node, diameter."
+  },
+  {
+    "topic": "Scale and Generalization",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Understand why generalization is necessary and ubiquitous in cartography and GIS."
+  },
+  {
+    "topic": "Scale and Generalization",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Differentiate between model generalization and cartographic generalization."
+  },
+  {
+    "topic": "Scale and Generalization",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Explain why the reduction of map scale sometimes results in the need for mapped features to be reduced in size and moved."
+  },
+  {
+    "topic": "Scale and Generalization",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Identify mapping tasks that require each of the following: smoothing, aggregation, simplification, and displacement."
+  },
+  {
+    "topic": "Scale and Generalization",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Apply appropriate generalization operators to change the display of map data to a smaller scale."
+  },
+  {
+    "topic": "Scale and Generalization",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Discuss the limitations of current technological approaches to generalization for mapping purposes."
+  },
+  {
+    "topic": "Scale and Generalization",
+    "theme": "Domains of Geographic Information",
+    "area": "foundational concepts",
+    "learning_objective": "Create a generalized dataset for mapping at 1:1,000,000 from topographic data compiled for 1:24,000 mapping."
+  },
+  {
+    "topic": "Academic Developments of GIS&T",
+    "theme": "Origins",
+    "area": "foundational concepts",
+    "learning_objective": "Identify the key academic disciplines that contributed to the development of GIS&T"
+  },
+  {
+    "topic": "Academic Developments of GIS&T",
+    "theme": "Origins",
+    "area": "foundational concepts",
+    "learning_objective": "Evaluate the role that the Quantitative Revolution in geography played in the development of GIS&T"
+  },
+  {
+    "topic": "Academic Developments of GIS&T",
+    "theme": "Origins",
+    "area": "foundational concepts",
+    "learning_objective": "Discuss the contributions of early academic centers of GIS&T research and development (e.g., Harvard Laboratory for Computer Graphics, UK Experimental Cartography Unit)"
+  },
+  {
+    "topic": "Academic Developments of GIS&T",
+    "theme": "Origins",
+    "area": "foundational concepts",
+    "learning_objective": "Understand the major shifts in research foci during the 1960s, 1970s, 1980s"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Describe several different measures of distance between two points (e.g., Euclidean, Manhattan, network distance, spherical)"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain how different measures of distance can be used to calculate the spatial weights matrix"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain why estimating the fractal dimension of a sinuous line has important implications for the measurement of its length"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain how fractal dimension can be used in practical applications of GIS"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain the differences in the calculated distance between the same two places when data used are in different projections"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Outline the implications of differences in distance calculations on real world applications of GIS, such as routing and determining boundary lengths and service areas"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Estimate the fractal dimension of a sinuous line"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Describe operations that can be performed on qualitative representations of direction"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain any differences in the measured direction between two places when the data are presented in a GIS in different projections"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Compute the mean of directional data"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Compare and contrast how direction is determined and stated in raster and vector data"
+  },
+  {
+    "topic": "Distance, Length, and Direction",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Define “direction” and its measurement in different angular measures"
+  },
+  {
+    "topic": "Shape",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Describe ways in which the shape of a geographical entity can affect other characteristics of that entity."
+  },
+  {
+    "topic": "Shape",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Be familiar with a number of numerical shape descriptors, and appreciate that no one such descriptor can provide complete information about a shape."
+  },
+  {
+    "topic": "Shape",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Demonstrate understanding of moment-based approaches to shape by computing low-order moments for some simple examples."
+  },
+  {
+    "topic": "Shape",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Demonstrate understanding of a number of different types of shape surrogate by computing them for some simple examples and interpreting the results."
+  },
+  {
+    "topic": "Shape",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Determine the degree of similarity between shapes using a number of standard measures."
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "List reasons why the area of a polygon calculated in a GIS might not be the same as the real world object it describes"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Demonstrate how the area of a region calculated from a raster data set will vary by resolution and orientation"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Outline an algorithm to find the area of a polygon using the coordinates of its vertices"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain how variations in the calculation of area may have real world implications, such as calculating density"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Delineate regions using properties, spatial relationships, and geospatial technologies"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Exemplify regions found at different scales"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain the relationship between regions and categories"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Identify the kinds of phenomena commonly found at the boundaries of regions"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain why general-purpose regions rarely exist"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Differentiate among different types of regions, including functional, cultural, physical, administrative, and others"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Compare and contrast the opportunities and pitfalls of using regions to aggregate geographic information (e.g., census data)"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Use established analysis methods that are based on the concept of region (e.g., landscape ecology)"
+  },
+  {
+    "topic": "Area and Region",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain the nature of the Modifiable Areal Unit Problem (MAUP)"
+  },
+  {
+    "topic": "Resolution",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Define resolution and its linkage to the broader concept of scale"
+  },
+  {
+    "topic": "Resolution",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Explain how resolution can affect study findings and interpretations in environmental change detection"
+  },
+  {
+    "topic": "Resolution",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Describe how resolution can affect study findings and interpretations in environmental health risk assessment"
+  },
+  {
+    "topic": "Resolution",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Define fractals"
+  },
+  {
+    "topic": "Resolution",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Demonstrate the use of fractals as a technique to mitigate resolution effects"
+  },
+  {
+    "topic": "Spatial Autocorrelation",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Define spatial autocorrelation."
+  },
+  {
+    "topic": "Spatial Autocorrelation",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Identify examples of spatial autocorrelation."
+  },
+  {
+    "topic": "Spatial Autocorrelation",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Demonstrate the principles of spatial autocorrelation."
+  },
+  {
+    "topic": "Spatial Autocorrelation",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Enumerate past, contemporaty, and still-to-be-researched properties of spatial autocorrelation."
+  },
+  {
+    "topic": "Set Theory",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Describe set theory"
+  },
+  {
+    "topic": "Set Theory",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Compare and contrast basic set theory and basic arithmetic."
+  },
+  {
+    "topic": "Set Theory",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Compare and contrast logic and set theory"
+  },
+  {
+    "topic": "Set Theory",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Describe where you already know that set theory is used in existing GIS software"
+  },
+  {
+    "topic": "Set Theory",
+    "theme": "Basic Measures",
+    "area": "foundational concepts",
+    "learning_objective": "Conjecture where else you might wish to see set theory used in GIS."
+  },
+  {
+    "topic": "Openness",
+    "theme": "Social",
+    "area": "foundational concepts",
+    "learning_objective": "Define Openness."
+  },
+  {
+    "topic": "Openness",
+    "theme": "Social",
+    "area": "foundational concepts",
+    "learning_objective": "Identify at least 5 fields or activities in which the principles of Openness are applied."
+  },
+  {
+    "topic": "Openness",
+    "theme": "Social",
+    "area": "foundational concepts",
+    "learning_objective": "List at least 5 benefits of Openness in each of the following areas: Open Data; Free and Open Source Software; and Open Standards."
+  },
+  {
+    "topic": "Openness",
+    "theme": "Social",
+    "area": "foundational concepts",
+    "learning_objective": "Explain the importance and implications in GIS&T of at least 3 benefits of Openness in the following areas: Open Data; Free and Open Source Software; and Open Standards."
+  },
+  {
+    "topic": "Openness",
+    "theme": "Social",
+    "area": "foundational concepts",
+    "learning_objective": "Identify at least 5 and explain at least 3 concerns, myths, or barriers to Openness in the areas of Open Data, Free and Open Source Software, and Open Standards."
+  },
+  {
+    "topic": "Openness",
+    "theme": "Social",
+    "area": "foundational concepts",
+    "learning_objective": "Explain the activities and importance of at least 3 Openness initiatives or activities in the area of GIS&T."
+  },
+  {
+    "topic": "Openness",
+    "theme": "Social",
+    "area": "foundational concepts",
+    "learning_objective": "Research and present a benefit of Openness in GIS&T that is debated, questioned, or that has been highlighted as requiring more research."
+  },
+  {
+    "topic": "Competence in GIS&T Knowledge Work",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Explain how the DeSeCo program’s three categories of individual competencies – the ability to use tools, the ability to interact win heterogeneous groups, and the ability to act autonomously – relate to professional practice in the geospatial field."
+  },
+  {
+    "topic": "Competence in GIS&T Knowledge Work",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Explain the relationship of major geospatial professions to the three industry sectors of the U.S. Department of Labor’s Geospatial Technology Competency Model (GTCM)."
+  },
+  {
+    "topic": "Competence in GIS&T Knowledge Work",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Self-assess your competencies relative to the Geospatial Technology Competency Model."
+  },
+  {
+    "topic": "Competence in GIS&T Knowledge Work",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Discuss the evolution of GIS knowledge work in an age of increasingly capable machines."
+  },
+  {
+    "topic": "GIS&T Positions and Qualifications",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Discuss the role of academic programs in GIS&T including certificates and degree programs."
+  },
+  {
+    "topic": "GIS&T Positions and Qualifications",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Identify standard occupational codes that are relevant to GIS&T."
+  },
+  {
+    "topic": "GIS&T Positions and Qualifications",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Identify types of GIS&T positions and their qualifications and explain why it has been difficult for many agencies and organizations to define positions and roles for GIS&T professionals."
+  },
+  {
+    "topic": "GIS&T Positions and Qualifications",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe the role of internships, professional certification, software certifications, and accreditation in relation to GIS&T positions and qualifications."
+  },
+  {
+    "topic": "GIS&T Education and Training",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Summarize the origins of GIS&T education in formal learning environments."
+  },
+  {
+    "topic": "GIS&T Education and Training",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Explain how GIS educational has mirrored advances in computing and digital technologies, and the role of the Internet."
+  },
+  {
+    "topic": "GIS&T Education and Training",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe the curricular, research, and administrative roles that GIS plays in higher education."
+  },
+  {
+    "topic": "GIS&T Education and Training",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Compare and contrast the “first” and “second” phases of GIS&T education."
+  },
+  {
+    "topic": "Professional Certification",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Explain the differences between professional certification, accreditation, and licensure."
+  },
+  {
+    "topic": "Professional Certification",
+    "theme": "GIS&T Workforce",
+    "area": "Knowledge Economy",
+    "learning_objective": "Name the key organizations who provide professional certification in GIS."
+  },
+  {
+    "topic": "Data sharing among public and private agencies, organizations, and individuals",
+    "theme": "Coordinating Organizations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe formal and informal arrangements that promote geospatial data sharing (e.g., FGDC, ESDI, memoranda of agreements, informal access arrangements, targeted funding support)"
+  },
+  {
+    "topic": "Data sharing among public and private agencies, organizations, and individuals",
+    "theme": "Coordinating Organizations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe a situation in which politics interferes with data sharing and exchange"
+  },
+  {
+    "topic": "Publications",
+    "theme": "Coordinating Organizations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe the leading academic journals serving the GIS&T community"
+  },
+  {
+    "topic": "Publications",
+    "theme": "Coordinating Organizations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Select association and for-profit journals that are useful to entities managing enterprise GISs"
+  },
+  {
+    "topic": "Publications",
+    "theme": "Coordinating Organizations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Select and describe the leading trade journals serving the GIS&T community"
+  },
+  {
+    "topic": "Publications",
+    "theme": "Coordinating Organizations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Develop a bibliography of scholarly and professional articles and/or books that are relevant to a particular GIS&T project"
+  },
+  {
+    "topic": "Funding",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Identify potential sources of funding (internal and external) for a project or enterprise GIS"
+  },
+  {
+    "topic": "Funding",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Create proposals and presentations to secure funding"
+  },
+  {
+    "topic": "Funding",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Analyze previous attempts at funding to identify successful and unsuccessful techniques"
+  },
+  {
+    "topic": "Organizational Models for GIS Management",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Understand the structure and missions of different types of organizations which manage GIS programs"
+  },
+  {
+    "topic": "Organizational Models for GIS Management",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Define “GIS Management” as a basis for examining organizational models for GIS programs"
+  },
+  {
+    "topic": "Organizational Models for GIS Management",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Characterize general organizational models as a starting point to describe GIS program management models"
+  },
+  {
+    "topic": "Organizational Models for GIS Management",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Identify the main types of organizational models for GIS program management with examples of how they are implemented in different types of organizations"
+  },
+  {
+    "topic": "Organizational Models for GIS Management",
+    "theme": "GIS Operations",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe the strengths and weaknesses of different management practices and GIS program governance through the lens of Organization Models"
+  },
+  {
+    "topic": "Strategic Planning for GIS Design",
+    "theme": "Design & Implementation of GIS&T",
+    "area": "Knowledge Economy",
+    "learning_objective": "Identify and describe the people (roles) necessary to effectively design a GIS"
+  },
+  {
+    "topic": "Strategic Planning for GIS Design",
+    "theme": "Design & Implementation of GIS&T",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe the methods for collaborating effectively with a variety of people in a design team"
+  },
+  {
+    "topic": "Strategic Planning for GIS Design",
+    "theme": "Design & Implementation of GIS&T",
+    "area": "Knowledge Economy",
+    "learning_objective": "Create a proposal to justify the funding necessary for the design process of a GIS"
+  },
+  {
+    "topic": "Strategic Planning for GIS Design",
+    "theme": "Design & Implementation of GIS&T",
+    "area": "Knowledge Economy",
+    "learning_objective": "Describe project management tools and techniques to manage the design process"
+  },
+  {
+    "topic": "Strategic Planning for GIS Design",
+    "theme": "Design & Implementation of GIS&T",
+    "area": "Knowledge Economy",
+    "learning_objective": "Categorize strategies for creating a schedule for the design and implementation of a GIS"
+  },
+  {
+    "topic": "Strategic Planning for GIS Design",
+    "theme": "Design & Implementation of GIS&T",
+    "area": "Knowledge Economy",
+    "learning_objective": "Explain how and why to use Gantt and PERT charts to track scheduling and progress"
+  },
+  {
+    "topic": "Graphics Processing Units",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Define Graphics Processing Units for general-purpose computation."
+  },
+  {
+    "topic": "Graphics Processing Units",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe hardware architecture and software frameworks for GPU-enabled acceleration."
+  },
+  {
+    "topic": "Graphics Processing Units",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Discuss fundamental in using thread-based parallelism to harness massively parallel computing power in GPUs."
+  },
+  {
+    "topic": "Graphics Processing Units",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe the evaluation of acceleration performance of GPUs for general-purpose computation."
+  },
+  {
+    "topic": "Graphics Processing Units",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Discuss the types of spatial problems that can be accelerated using GPUs."
+  },
+  {
+    "topic": "Mobile Devices",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Understand and describe the contextual, technological, and financial considerations required for making a mobile app for geographic information collection."
+  },
+  {
+    "topic": "Mobile Devices",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Understand and describe the core concepts related to mobile devices as they apply to computing infrastructure as a whole."
+  },
+  {
+    "topic": "Mobile Devices",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Understand what technological advancements have taken place that have made mobile devices important and relevant for GIS&T."
+  },
+  {
+    "topic": "Cyberinfrastructure",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Explain the history of cyberinfrastructure"
+  },
+  {
+    "topic": "Cyberinfrastructure",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Assess the importance and roles of cyberinfrastructure to science and engineering"
+  },
+  {
+    "topic": "Cyberinfrastructure",
+    "theme": "Computing Infrastructures",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe the conceptual foundations of cyberGIS"
+  },
+  {
+    "topic": "Social Media Analytics",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Define social media, social media analytics, natural language processing and text mining."
+  },
+  {
+    "topic": "Social Media Analytics",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe the general workflow of social media analytics for geospatial applications."
+  },
+  {
+    "topic": "Social Media Analytics",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Discuss the file and database systems (e.g., NoSQL databases) can be leveraged to manage and manipulate social media data."
+  },
+  {
+    "topic": "Social Media Analytics",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe the techniques (e.g., text preprocessing and NLP) that can help computers analyze, understand, and derive meaning from human language."
+  },
+  {
+    "topic": "Social Media Analytics",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Discuss spatial/spatiotemporal analysis and data mining algorithms and methods that can be used to reveal meaningful information and patterns from social media data."
+  },
+  {
+    "topic": "Social Media Analytics",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Discuss common geovisualization methods (e.g., graphs and maps) and tools for mapping and visualizing different components of the social media data (e.g., geo-tags, temporal information, and users)."
+  },
+  {
+    "topic": "Social Media Analytics",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Compare and contrast two geospatial applications that can leverage social media data from the perspectives of techniques, tools, and approaches to process and mine social media data."
+  },
+  {
+    "topic": "Social Networks",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe the purpose of a social network and what it can reveal about relationships."
+  },
+  {
+    "topic": "Social Networks",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe what nodes and edges represent, and the variables that can be ascribed to each."
+  },
+  {
+    "topic": "Social Networks",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Explain how different metrics reveal the ‘importance’ of nodes or edges in a social network."
+  },
+  {
+    "topic": "Social Networks",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "List different properties that are used to describe an entire network."
+  },
+  {
+    "topic": "Social Networks",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Report on how a social network can have spatial properties."
+  },
+  {
+    "topic": "Social Networks",
+    "theme": "Networks and Services",
+    "area": "Computing Platforms",
+    "learning_objective": "Explain how a social network might interact with the built environment."
+  },
+  {
+    "topic": "Spatial MapReduce",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Distinguish between the traditional procedural programming and the MapReduce programming paradigm."
+  },
+  {
+    "topic": "Spatial MapReduce",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Differentiate between the MapReduce programming paradigm and the MapReduce framework."
+  },
+  {
+    "topic": "Spatial MapReduce",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Characterize the limitations of HDFS for the storage and processing of spatial data."
+  },
+  {
+    "topic": "Spatial MapReduce",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe the MapReduce implementation of the range query operation."
+  },
+  {
+    "topic": "Spatial MapReduce",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Identify the purpose of the duplicate avoidance technique in the spatial join operation."
+  },
+  {
+    "topic": "Artificial Intelligence Tools and Platforms for GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe computational intelligence methods that may apply to GIS&T"
+  },
+  {
+    "topic": "Artificial Intelligence Tools and Platforms for GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Exemplify the potential for machine learning to expand performance of specialized geospatial analysis functions"
+  },
+  {
+    "topic": "Artificial Intelligence Tools and Platforms for GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe a hypothesis space that includes searches for optimality of solutions within that space"
+  },
+  {
+    "topic": "Artificial Intelligence Tools and Platforms for GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe artificial intelligence methods that may apply to GIS&T"
+  },
+  {
+    "topic": "Artificial Intelligence Tools and Platforms for GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Identify artificial intelligence tools that may be useful for GIS&T"
+  },
+  {
+    "topic": "Web GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Explain how web services enable the sharing of maps and GIS operations in an online environment."
+  },
+  {
+    "topic": "Web GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "List strategies that web GIS administrators can take to improve the speed and capacity of their systems."
+  },
+  {
+    "topic": "Web GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Summarize and compare various security precautions that web GIS system administrators can take to protect access to sensitive data or algorithms."
+  },
+  {
+    "topic": "Web GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Critically discuss some societal effects stemming from the web-enabled shift of spatial data production from experts to laypersons (i.e., the rise of “neogeography”)."
+  },
+  {
+    "topic": "Web GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Given a set of requirements, propose appropriate system architectures for web GIS, including the software and hardware used for the data server, GIS server, web server, and client apps."
+  },
+  {
+    "topic": "Enterprise GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Define Enterprise GIS in an generalized manner without reference to a specific enabling technologies."
+  },
+  {
+    "topic": "Enterprise GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Explain the difference between a system and a process definition of Enterprise GIS."
+  },
+  {
+    "topic": "Enterprise GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Describe the value-adding points of Enterprise GIS in an organizational setting."
+  },
+  {
+    "topic": "Enterprise GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Express the importance of organizational context to the implementation and operation of an Enterprise GIS."
+  },
+  {
+    "topic": "Enterprise GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Demonstrate the importance of iteratively evolving a given Enterprise GIS implementation over time."
+  },
+  {
+    "topic": "Enterprise GIS",
+    "theme": "Software Systems",
+    "area": "Computing Platforms",
+    "learning_objective": "Identify the current implementation patterns of Enterprise GIS, based on present trends and best practices in IT."
+  },
+  {
+    "topic": "Google Earth Engine",
+    "theme": "Examples and Applications",
+    "area": "Computing Platforms",
+    "learning_objective": "Explain the difference between serving data and analysis on the web/cloud"
+  },
+  {
+    "topic": "Google Earth Engine",
+    "theme": "Examples and Applications",
+    "area": "Computing Platforms",
+    "learning_objective": "Discuss the advantages of cloud-based vs. desktop-based geospatial analysis"
+  },
+  {
+    "topic": "Google Earth Engine",
+    "theme": "Examples and Applications",
+    "area": "Computing Platforms",
+    "learning_objective": "Explain the relationship between Features and ImageCollections"
+  },
+  {
+    "topic": "Google Earth Engine",
+    "theme": "Examples and Applications",
+    "area": "Computing Platforms",
+    "learning_objective": "Demonstrate how to access the GEE platform and how to pull in a dataset for analysis"
+  },
+  {
+    "topic": "Google Earth Engine",
+    "theme": "Examples and Applications",
+    "area": "Computing Platforms",
+    "learning_objective": "Determine if a use case is appropriate for scaling in the GEE"
+  },
+  {
+    "topic": "Linear Programming and GIS",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Describe the fundamental components of a Linear Program"
+  },
+  {
+    "topic": "Linear Programming and GIS",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Explain the basics of how Linear Programming works"
+  },
+  {
+    "topic": "Linear Programming and GIS",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Distinguish between an optimal and a heuristic approach to solving linear programs"
+  },
+  {
+    "topic": "Linear Programming and GIS",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Discuss the limitations of solving Linear Programs in the context of Geographic Information Systems"
+  },
+  {
+    "topic": "Linear Programming and GIS",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Recognize that integrating GIS and linear programming solution software can expand the number and kind of spatial optimization problems that can be addressed"
+  },
+  {
+    "topic": "GIS and Parallel Programming",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Describe the benefits of parallel programming"
+  },
+  {
+    "topic": "GIS and Parallel Programming",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Use Amdahl's Law to calculate theoretical speedup"
+  },
+  {
+    "topic": "GIS and Parallel Programming",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Differentiate memory models used in parallel programming"
+  },
+  {
+    "topic": "GIS and Parallel Programming",
+    "theme": "Algorithm Design/Algorithmic Approaches",
+    "area": "programming and development",
+    "learning_objective": "Compare measuring parallel performance using execution time versus speedup"
+  },
+  {
+    "topic": "Visual Programming for GIS Applications",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "Describe and discuss the role of visual programming in GIS"
+  },
+  {
+    "topic": "Visual Programming for GIS Applications",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "Identify and differentiate among visual editors available for use with GIS software"
+  },
+  {
+    "topic": "Visual Programming for GIS Applications",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "List several examples or case studies for using a visual programming language (VPL)"
+  },
+  {
+    "topic": "Visual Programming for GIS Applications",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "Create your own process model in a selected GIS graphical editor"
+  },
+  {
+    "topic": "Visual Programming for GIS Applications",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "Identify possible improvements of selected VPLs with regards to their graphical form or functionality"
+  },
+  {
+    "topic": "GIS APIs",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "Describe the roles of APIs in distributed GIS applications"
+  },
+  {
+    "topic": "GIS APIs",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "Understand the landscape of GIS and related APIs"
+  },
+  {
+    "topic": "GIS APIs",
+    "theme": "Development Tools",
+    "area": "programming and development",
+    "learning_objective": "Setup the appropriate GIS API(s) to develop GIS applications"
+  },
+  {
+    "topic": "Programming of Mobile GIS Applications",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Describe or summarize the concepts and characteristics of mobile GIS."
+  },
+  {
+    "topic": "Programming of Mobile GIS Applications",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Explain different types of mobile GIS."
+  },
+  {
+    "topic": "Programming of Mobile GIS Applications",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Explain the general architecture of mobile GIS, and the functions of each component."
+  },
+  {
+    "topic": "Programming of Mobile GIS Applications",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "List the application domains of mobile GIS and describe the key functions offered by mobile GIS for each domain."
+  },
+  {
+    "topic": "Programming of Mobile GIS Applications",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Explain the challenges and potential solutions of mobile GIS development from the perspectives of spatial functions, user interface design, and system performance."
+  },
+  {
+    "topic": "Web GIS Programming",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Define and illustrate the purpose of web GIS programming, such as how to use it to build or extend GIS software functionality."
+  },
+  {
+    "topic": "Web GIS Programming",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Provide an example of a programming approach to address a particular web GIS programming problem."
+  },
+  {
+    "topic": "Web GIS Programming",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Describe the benefits and challenges of developing web GIS applications using different software technologies and system architectures."
+  },
+  {
+    "topic": "Web GIS Programming",
+    "theme": "Platform Specific Programming",
+    "area": "programming and development",
+    "learning_objective": "Demonstrate familiarity with different web and server computer languages commonly used in Web GIS application development."
+  },
+  {
+    "topic": "Python for GIS",
+    "theme": "Programming Languages & Libraries",
+    "area": "programming and development",
+    "learning_objective": "Describe the role of programming in GIScience."
+  },
+  {
+    "topic": "Python for GIS",
+    "theme": "Programming Languages & Libraries",
+    "area": "programming and development",
+    "learning_objective": "Explain the different Python GIS development modes."
+  },
+  {
+    "topic": "Python for GIS",
+    "theme": "Programming Languages & Libraries",
+    "area": "programming and development",
+    "learning_objective": "Demonstrate familiarity with the current Python GIS Programming Stack."
+  },
+  {
+    "topic": "SQL Languages for GIS",
+    "theme": "Programming Languages & Libraries",
+    "area": "programming and development",
+    "learning_objective": "Explain the difference between declarative and procedural programming languages."
+  },
+  {
+    "topic": "SQL Languages for GIS",
+    "theme": "Programming Languages & Libraries",
+    "area": "programming and development",
+    "learning_objective": "Explain the use of views in spatial data management."
+  },
+  {
+    "topic": "SQL Languages for GIS",
+    "theme": "Programming Languages & Libraries",
+    "area": "programming and development",
+    "learning_objective": "Describe how to automate the calculation of derived data."
+  },
+  {
+    "topic": "SQL Languages for GIS",
+    "theme": "Programming Languages & Libraries",
+    "area": "programming and development",
+    "learning_objective": "Plan and implement typical spatial analyses in SQL."
+  },
+  {
+    "topic": "Aerial Photography",
+    "theme": "Digital Data Sources & Capture Methods",
+    "area": "data capture",
+    "learning_objective": "Describe the differences between oblique and vertical aerial photographs."
+  },
+  {
+    "topic": "Aerial Photography",
+    "theme": "Digital Data Sources & Capture Methods",
+    "area": "data capture",
+    "learning_objective": "Identify the historical developments related to the field of aerial photography."
+  },
+  {
+    "topic": "Aerial Photography",
+    "theme": "Digital Data Sources & Capture Methods",
+    "area": "data capture",
+    "learning_objective": "Explain the various distortions found in vertical aerial photographs."
+  },
+  {
+    "topic": "Aerial Photography",
+    "theme": "Digital Data Sources & Capture Methods",
+    "area": "data capture",
+    "learning_objective": "Explain about why aerial photographs are orthorectified."
+  },
+  {
+    "topic": "Aerial Photography",
+    "theme": "Digital Data Sources & Capture Methods",
+    "area": "data capture",
+    "learning_objective": "Describe the process of accurately placing vector attribute information on an aerial photograph or a satellite image."
+  },
+  {
+    "topic": "Mission planning",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Plan an aerial imagery mission in response to a given request for proposals and map of a study area, taking into consideration vertical and horizontal control, atmospheric conditions, time of year, and time of day"
+  },
+  {
+    "topic": "LiDAR",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Describe the science and math behind LiDAR technology."
+  },
+  {
+    "topic": "LiDAR",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Explain the information that each LiDAR data point contains."
+  },
+  {
+    "topic": "LiDAR",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Explain the derivatives of LiDAR: slope, aspect, and contour and discuss their strengths and limitations."
+  },
+  {
+    "topic": "LiDAR",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Describe two means of visualizing LiDAR."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Define UAS."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Summarize the predominant UAS platform types."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Understand the requirements for legal operation of UAS for data collection purposes."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Describe how to execute a successful UAS data capture mission."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "List commonly used sensors for capturing remote sensed data via UAS."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Describe a common data workflow for UAS-collected aerial imagery."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Acquire knowledge of how UAS technology is applied in geospatial research."
+  },
+  {
+    "topic": "Unmanned Aerial Systems (UAS)",
+    "theme": "Remote Sensing Platforms & Sensors",
+    "area": "data capture",
+    "learning_objective": "Understand the societal issues surrounding UAS data capture."
+  },
+  {
+    "topic": "Stereoscopy and orthoimagery",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Explain the relevance of the concept “parallax” in stereoscopic aerial imagery"
+  },
+  {
+    "topic": "Stereoscopy and orthoimagery",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Evaluate the advantages and disadvantages of photogrammetric methods and LiDAR for production of terrain elevation data"
+  },
+  {
+    "topic": "Stereoscopy and orthoimagery",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Specify the technical components of an aerotriangulation system"
+  },
+  {
+    "topic": "Stereoscopy and orthoimagery",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Outline the sequence of tasks involved in generating an orthoimage from a vertical aerial photograph"
+  },
+  {
+    "topic": "Vector data extraction",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Describe the source data, instrumentation, and workflow involved in extracting vector data (features and elevations) from analog and digital stereoimagery"
+  },
+  {
+    "topic": "Vector data extraction",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Discuss future prospects for automated feature extraction from aerial imagery"
+  },
+  {
+    "topic": "Vector data extraction",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Discuss the extent to which vector data extraction from aerial stereoimagery has been automated"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Differentiate supervised classification from unsupervised classification"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Describe the sequence of tasks involved in the geometric correction of the Advanced Very High Resolution Radiometer (AVHRR) Global Land Dataset"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Compare pixel-based image classification methods with segmentation techniques"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Explain how to enhance contrast of reflectance values clustered within a narrow band of wavelengths"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Describe an application of hyperspectral image data"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Produce pseudocode for common unsupervised classification algorithms, including chain method, ISODATA method, and clustering"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Calculate a set of filtered reflectance values for a given array of reflectance values and a digital image filtering algorithm"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Describe a situation in which filtered data are more useful than the original unfiltered data"
+  },
+  {
+    "topic": "Algorithms and processing",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Perform a manual unsupervised classification given a two-dimensional array of reflectance values and ranges of reflectance values associated with a given number of land cover categories"
+  },
+  {
+    "topic": "Ground verification and accuracy assessment",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Evaluate the thematic accuracy of a given soils map"
+  },
+  {
+    "topic": "Ground verification and accuracy assessment",
+    "theme": "Processing Remotely-Sensed Data",
+    "area": "data capture",
+    "learning_objective": "Explain how U.S. Geological Survey scientists and contractors assess the accuracy of the National Land Cover Dataset"
+  },
+  {
+    "topic": "Professional Land Surveying",
+    "theme": "Land Surveying and Global Navigation Satellite Systems (GNSS)",
+    "area": "data capture",
+    "learning_objective": "Describe why surveying plays a central role in free markets."
+  },
+  {
+    "topic": "Professional Land Surveying",
+    "theme": "Land Surveying and Global Navigation Satellite Systems (GNSS)",
+    "area": "data capture",
+    "learning_objective": "Explain connections between surveying and GIS."
+  },
+  {
+    "topic": "Professional Land Surveying",
+    "theme": "Land Surveying and Global Navigation Satellite Systems (GNSS)",
+    "area": "data capture",
+    "learning_objective": "Compare and contrast two types of equipment that a surveyor uses. Explain why each is useful for particular tasks."
+  },
+  {
+    "topic": "Land records",
+    "theme": "Land Surveying and Global Navigation Satellite Systems (GNSS)",
+    "area": "data capture",
+    "learning_objective": "Distinguish between GIS, LIS, and CAD/CAM in the context of land records management"
+  },
+  {
+    "topic": "Land records",
+    "theme": "Land Surveying and Global Navigation Satellite Systems (GNSS)",
+    "area": "data capture",
+    "learning_objective": "Evaluate the difference in accuracy requirements for deeds systems versus registration systems"
+  },
+  {
+    "topic": "Land records",
+    "theme": "Land Surveying and Global Navigation Satellite Systems (GNSS)",
+    "area": "data capture",
+    "learning_objective": "Exemplify and compare deed descriptions in terms of how accurately they convey the geometry of a parcel"
+  },
+  {
+    "topic": "Land records",
+    "theme": "Land Surveying and Global Navigation Satellite Systems (GNSS)",
+    "area": "data capture",
+    "learning_objective": "Distinguish between topological fidelity and geometric accuracy in the context of a plat map"
+  },
+  {
+    "topic": "Conceptual Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Define conceptual data model."
+  },
+  {
+    "topic": "Conceptual Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe the purpose of a conceptual data model."
+  },
+  {
+    "topic": "Conceptual Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Characterize the entity, attribute, and relationship components of a conceptual data model."
+  },
+  {
+    "topic": "Conceptual Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Develop (Sketch) a conceptual data model using an entity-relationship diagram."
+  },
+  {
+    "topic": "Conceptual Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Distinguish between use cases and conceptual data models; describe how they can work together."
+  },
+  {
+    "topic": "Conceptual Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Discuss how a conceptual data model characterizes information requirements for an application."
+  },
+  {
+    "topic": "Conceptual Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe the relationship between an application-centric conceptual data model and a enterprise-wide conceptual data model."
+  },
+  {
+    "topic": "Logical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Define logical data model."
+  },
+  {
+    "topic": "Logical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe the purpose of a logical data model."
+  },
+  {
+    "topic": "Logical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Differentiate logical data model approaches."
+  },
+  {
+    "topic": "Logical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Develop the basics of a logical data model diagram."
+  },
+  {
+    "topic": "Logical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe how activity diagrams can supplement logical data models to further characterize logical data organization in a logical data model."
+  },
+  {
+    "topic": "Logical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe how an application-centric logical data model differs from an enterprise-wide logical data model, and how logical data schema integration can support development of an enterprise-wide data model."
+  },
+  {
+    "topic": "Logical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Differentiate between a data warehouse and a federated database in support of applications for an enterprise-wide database environment."
+  },
+  {
+    "topic": "Physical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Define physical data model."
+  },
+  {
+    "topic": "Physical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe the purpose of a physical data model."
+  },
+  {
+    "topic": "Physical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe how a physical data model differs from a logical data model in terms of software implementation."
+  },
+  {
+    "topic": "Physical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Develop a physical data model diagram."
+  },
+  {
+    "topic": "Physical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Differentiate physical data models based on their logical data model approaches."
+  },
+  {
+    "topic": "Physical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Characterize data types and indexing for physical data models."
+  },
+  {
+    "topic": "Physical Data Models",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "List some of the most popular DBMS software that can be used for geospatial implementation."
+  },
+  {
+    "topic": "NoSQL Databases",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Explain the meaning behind the name NoSQL database."
+  },
+  {
+    "topic": "NoSQL Databases",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe the four types of store models NoSQL databases."
+  },
+  {
+    "topic": "NoSQL Databases",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Compare and contrast the major differences between NoSQL and relational databases."
+  },
+  {
+    "topic": "NoSQL Databases",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Explain the advantages in using NoSQL database to store spatial data, especially big spatial data."
+  },
+  {
+    "topic": "Geospatial Data Conflation",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Define the concept of conflation and what kind of context it is used."
+  },
+  {
+    "topic": "Geospatial Data Conflation",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Describe the basic types of conflation problems."
+  },
+  {
+    "topic": "Geospatial Data Conflation",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Understand the cardinality of match relation."
+  },
+  {
+    "topic": "Geospatial Data Conflation",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Understand the different criteria used for conflating geospatial features."
+  },
+  {
+    "topic": "Geospatial Data Conflation",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Implement basic conflation operator using buffer analysis and overlay operation."
+  },
+  {
+    "topic": "Geospatial Data Conflation",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Explain the difference between manual and automatic conflation."
+  },
+  {
+    "topic": "Geospatial Data Conflation",
+    "theme": "Spatial Databases",
+    "area": "Data management",
+    "learning_objective": "Compare conflation with spatial join, image fusion and other related operations for data integration."
+  },
+  {
+    "topic": "Spatial Indexing",
+    "theme": "Spatial Access Methods",
+    "area": "Data management",
+    "learning_objective": "Define the concept of a spatial index and what kind of spatial operations it is related to."
+  },
+  {
+    "topic": "Spatial Indexing",
+    "theme": "Spatial Access Methods",
+    "area": "Data management",
+    "learning_objective": "Describe the basic category of spatial index and name some common data structures of spatial databases."
+  },
+  {
+    "topic": "Spatial Indexing",
+    "theme": "Spatial Access Methods",
+    "area": "Data management",
+    "learning_objective": "Demonstrate how different data structures works for spatial queries and spatial join."
+  },
+  {
+    "topic": "Spatial Indexing",
+    "theme": "Spatial Access Methods",
+    "area": "Data management",
+    "learning_objective": "Understand how to build spatial indexes in both commercial and open-source databases and be aware of what the strategies they use."
+  },
+  {
+    "topic": "Spatial Indexing",
+    "theme": "Spatial Access Methods",
+    "area": "Data management",
+    "learning_objective": "Implement point query or window query algorithms that retrieve geospatial data using basic index structures"
+  },
+  {
+    "topic": "Spatial Indexing",
+    "theme": "Spatial Access Methods",
+    "area": "Data management",
+    "learning_objective": "Compare and discuss the relative performance of different spatial indices."
+  },
+  {
+    "topic": "Spatial Data Uncertainty",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Define spatial data uncertainty, quality, accuracy, error, and geo-semantic uncertainty."
+  },
+  {
+    "topic": "Spatial Data Uncertainty",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Explain the importance of spatial data uncertainty."
+  },
+  {
+    "topic": "Spatial Data Uncertainty",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Describe major methods to evaluate positional and attribute uncertainty."
+  },
+  {
+    "topic": "Spatial Data Uncertainty",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Describe major methods to evaluate geo-semantic uncertainty."
+  },
+  {
+    "topic": "Spatial Data Uncertainty",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Discuss possible methods to evaluate uncertainty of crowd-sourced geographic data."
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Compare and contrast the meanings of related terms such as vague, fuzzy, imprecise, indefinite, indiscrete, unclear, and ambiguous"
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Describe the cognitive processes that tend to create vagueness"
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Recognize the degree to which vagueness depends on scale"
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Evaluate vagueness in the locations, time, attributes, and other aspects of geographic phenomena"
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Differentiate between the following concepts: vagueness and ambiguity, well defined and poorly defined objects and fields, and discord and non-specificity"
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Identify the hedges used in language to convey vagueness"
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Evaluate the role that system complexity, dynamic processes, and subjectivity play in the creation of vague phenomena and concepts"
+  },
+  {
+    "topic": "Vagueness",
+    "theme": "Spatial Data Quality",
+    "area": "Data management",
+    "learning_objective": "Differentiate applications in which vagueness is an acceptable trait from those in which it is unacceptable"
+  },
+  {
+    "topic": "Linear Referencing",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Define linear referencing"
+  },
+  {
+    "topic": "Linear Referencing",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Summarize the process of implementing linear referencing"
+  },
+  {
+    "topic": "Linear Referencing",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Identify applications of linear referencing"
+  },
+  {
+    "topic": "Linear Referencing",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Describe practical examples of analysis with linear referencing"
+  },
+  {
+    "topic": "Georegistration",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Differentiate rectification and orthorectification"
+  },
+  {
+    "topic": "Georegistration",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Identify and explain an equation used to perform image-to-map registration"
+  },
+  {
+    "topic": "Georegistration",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Identify and explain an equation used to perform image-to-image registration"
+  },
+  {
+    "topic": "Georegistration",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Use GIS software to transform a given dataset to a specified coordinate system, projection, and datum"
+  },
+  {
+    "topic": "Georegistration",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Explain the role and selection criteria for “ground control points” (GCPs) in the georegistration of aerial imagery"
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Describe the geometric properties of the globe that may be distorted in the map projection process."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Describe at least one technique for visualizing distortion (e.g.,  Tissot’s indicatrices, or continuous distortion surfaces) and use it to visualize distortion."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Identify and describe the distortion pattern in a specific map projection using a common visualization method (e.g., Tissot’s indicatrices) or distortion surface."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Compare multiple map projections to explain the difference in distortion patterns, and how the maps would be suited for different analysis or visualization purposes."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Georeferencing Systems",
+    "area": "Data management",
+    "learning_objective": "Design a thematic map that uses a map projection appropriate to the theme and map purpose."
+  },
+  {
+    "topic": "Metadata",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Describe a scenario in which possible errors in a map may impact subsequent decision making, such as a land use decision based on a soils map"
+  },
+  {
+    "topic": "Metadata",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Evaluate the uncertainty inherent in a map"
+  },
+  {
+    "topic": "Metadata",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Compare the decisions made using a map with a reliability overlay from those made using a map pair separating data and reliability, both drawn from the same dataset"
+  },
+  {
+    "topic": "Metadata",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Critique the assumption that maps can or should be “accurate”"
+  },
+  {
+    "topic": "Spatial Data Infrastructures",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Define spatial data infrastructure."
+  },
+  {
+    "topic": "Spatial Data Infrastructures",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Describe the major components of a typical SDI."
+  },
+  {
+    "topic": "Spatial Data Infrastructures",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Describe the main functions of geoportals."
+  },
+  {
+    "topic": "Spatial Data Infrastructures",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Define metadata, and describe the types of information that may be included in metadata."
+  },
+  {
+    "topic": "Spatial Data Infrastructures",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Differentiate text-based search and map-based search."
+  },
+  {
+    "topic": "Spatial Data Infrastructures",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "List some of the widely-recognized SDIs."
+  },
+  {
+    "topic": "Spatial Data Infrastructures",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Describe the role of standards in ensuring the quality of metadata."
+  },
+  {
+    "topic": "Ontology for Geospatial Semantic Interoperability",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Explain the concepts of geospatial semantic interoperability"
+  },
+  {
+    "topic": "Ontology for Geospatial Semantic Interoperability",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Define and describe the concepts of ontology, ontological languages, and ontological queries"
+  },
+  {
+    "topic": "Ontology for Geospatial Semantic Interoperability",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Present the challenges of building ontologies"
+  },
+  {
+    "topic": "Ontology for Geospatial Semantic Interoperability",
+    "theme": "Spatial Data Infrastructures",
+    "area": "Data management",
+    "learning_objective": "Introduce issues for geospatial semantic interoperability and challenges for geospatial semantic interoperability using ontologies"
+  },
+  {
+    "topic": "Neighborhoods",
+    "theme": "Conceptual Frameworks for Spatial Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe the complexity and uncertainty in neighborhood definition, incorporating the idea of no consensus definition to fit all contexts."
+  },
+  {
+    "topic": "Neighborhoods",
+    "theme": "Conceptual Frameworks for Spatial Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the three typical neighborhood definitions in the context of computational geometry, administration and planning, and urban geography."
+  },
+  {
+    "topic": "Neighborhoods",
+    "theme": "Conceptual Frameworks for Spatial Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Within the context of computational geometry, provide key neighborhood concepts for vector (point and polygon) and raster data using the most commonly used methods such as Rook Neighbors, Queen Neighbors, Thiessen polygons, Delaunay triangulations, and local, focal, zonal and global functions."
+  },
+  {
+    "topic": "Neighborhoods",
+    "theme": "Conceptual Frameworks for Spatial Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Within the context of urban geography, explain neighborhood and community as social clusters."
+  },
+  {
+    "topic": "Neighborhoods",
+    "theme": "Conceptual Frameworks for Spatial Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Within the context of health research, explain the needs, considerations, and use of neighborhoods to characterize social and environmental determinants of health."
+  },
+  {
+    "topic": "Coordinate transformations",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Cite appropriate applications of several coordinate transformation techniques (e.g., affine, similarity, Molodenski, Helmert)"
+  },
+  {
+    "topic": "Coordinate transformations",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe the impact of map projection transformation on raster and vector data"
+  },
+  {
+    "topic": "Coordinate transformations",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Differentiate between polynomial coordinate transformations (including linear) and rubbersheeting"
+  },
+  {
+    "topic": "Data conversion",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Identify the conceptual and practical difficulties associated with data model and format conversion"
+  },
+  {
+    "topic": "Data conversion",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Convert a data set from the native format of one GIS product to another"
+  },
+  {
+    "topic": "Data conversion",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss the role of metadata in facilitating conversation of data models and data structures between systems"
+  },
+  {
+    "topic": "Data conversion",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe a workflow for converting and implementing a data model in a GIS involving an Entity-Relationship (E-R) diagram and the Universal Modeling Language (UML)"
+  },
+  {
+    "topic": "Impacts of transformations",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Compare and contrast the impacts of different conversion approaches, including the effect on spatial components"
+  },
+  {
+    "topic": "Impacts of transformations",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Create a flowchart showing the sequence of transformations on a data set (e.g., geometric and radiometric correction and mosaicking of remotely sensed data)"
+  },
+  {
+    "topic": "Impacts of transformations",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Prioritize a set of algorithms designed to perform transformations based on the need to maintain data integrity (e.g., converting a digital elevation model into a TIN)"
+  },
+  {
+    "topic": "Raster resampling",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Evaluate methods used by contemporary GIS software to resample raster data on-the-fly during display"
+  },
+  {
+    "topic": "Raster resampling",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Select appropriate interpolation techniques to resample particular types of values in raster data (e.g., nominal using nearest neighbor)"
+  },
+  {
+    "topic": "Raster resampling",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Resample multiple raster data sets to a single resolution to enable overlay"
+  },
+  {
+    "topic": "Raster resampling",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Resample raster data sets (e.g., terrain, satellite imagery) to a resolution appropriate for a map of a particular scale"
+  },
+  {
+    "topic": "Raster resampling",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss the consequences of increasing and decreasing resolution"
+  },
+  {
+    "topic": "Vector-to-raster and raster-to-vector conversions",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain how the vector/raster/vector conversion process of graphic images and algorithms takes place and how the results are achieved"
+  },
+  {
+    "topic": "Vector-to-raster and raster-to-vector conversions",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Create estimated tessellated data sets from point samples or isolines using interpolation operations that are appropriate to the specific situation"
+  },
+  {
+    "topic": "Vector-to-raster and raster-to-vector conversions",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Illustrate the impact of vector/raster/vector conversions on the quality of a dataset"
+  },
+  {
+    "topic": "Vector-to-raster and raster-to-vector conversions",
+    "theme": "Data Manipulation",
+    "area": "analytics and modeling",
+    "learning_objective": "Convert vector data to raster format and back using GIS software"
+  },
+  {
+    "topic": "Distance Operations",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Differentiate types of distance (Euclidean, Manhattan, Network, Great Circle Distance) and describe which should be used for point-to-point measurement in different case studies involving travel, animal movement, urban applications and areal diffusion)."
+  },
+  {
+    "topic": "Distance Operations",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe how a distance operation can produce a binary variable, an ordinal variable or a continuous variable."
+  },
+  {
+    "topic": "Distance Operations",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe scenarios when distance operations are required for geographical analysis (creating policy, measuring distance decay, delineating service areas, and defining likelihoods of interaction)."
+  },
+  {
+    "topic": "Distance Operations",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe cases where the output of a distance operation would be a polygon, line, raster surface, or numeric matrix."
+  },
+  {
+    "topic": "Buffers",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Outline the circumstances in which the buffer operation is useful in different geographic analyses (clipping geographic data, visualization, and performing spatial queries)."
+  },
+  {
+    "topic": "Buffers",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Use riparian buffer zones as an example to discuss and compare buffer zones used in different application domains such as construction, nature conservation, and biodiversity,"
+  },
+  {
+    "topic": "Buffers",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Compare and contrast how buffers are generated differently in the vector and raster data models."
+  },
+  {
+    "topic": "Buffers",
+    "theme": "Building Blocks",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain how buffers can be generated based on the concept of movement cost."
+  },
+  {
+    "topic": "Spatial Interaction",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Understand the general concept of SI and how to represent it using a matrix."
+  },
+  {
+    "topic": "Spatial Interaction",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Trace the development of SI models from analogies to gravity, to the use of statistical mechanics in the maximum entropy framework, to the inclusion of more behavioral theories, such as competing destinations."
+  },
+  {
+    "topic": "Spatial Interaction",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Become familiar with techniques to calibrate SI models, and differentiate between traditional parametric SI models and more recent non-parametric varieties."
+  },
+  {
+    "topic": "Spatial Interaction",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe the formulation of the classic gravity model, the unconstrained SI model, the production constrained SI model, the attraction constrained SI model, and the doubly-constrained SI model."
+  },
+  {
+    "topic": "Spatial Interaction",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain how dynamic, chaotic, complex, or unpredictable aspects in some phenomena make parameterized SI models more appropriate than simpler gravity-type SI models."
+  },
+  {
+    "topic": "Spatial Interaction",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the concept of competing destinations, describing how traditional SI model forms are modified to account for it."
+  },
+  {
+    "topic": "Spatial Interaction",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Outline the basic steps of a neural SI model, and discuss the benefits/drawbacks of this computational approach to SI modeling."
+  },
+  {
+    "topic": "Landscape Metrics",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the levels of analysis at which landscape metrics are computed"
+  },
+  {
+    "topic": "Landscape Metrics",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Evaluate the appropriateness of different metrics for analysis goals and data models"
+  },
+  {
+    "topic": "Landscape Metrics",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Distinguish between patch-mosaic models and gradient surface models of landscapes"
+  },
+  {
+    "topic": "Landscape Metrics",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Recognize the differences between traditional landscape metrics, graph-based metrics, and surface metrics"
+  },
+  {
+    "topic": "Global Measures of Spatial Association",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Define spatial autocorrelation."
+  },
+  {
+    "topic": "Global Measures of Spatial Association",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe how spatial weights are used to calculate measures of spatial autocorrelation."
+  },
+  {
+    "topic": "Global Measures of Spatial Association",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss how Moran’s I and Geary’s C are used to measure spatial patterns."
+  },
+  {
+    "topic": "Global Measures of Spatial Association",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Identify the proper data type for join count statistics and compute the statistic."
+  },
+  {
+    "topic": "Global Measures of Spatial Association",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Compute and interpret a Moran scatterplot."
+  },
+  {
+    "topic": "Global Measures of Spatial Association",
+    "theme": "Data Exploration & Spatial Statistics",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain how a variogram depicts a global assessment of spatial association."
+  },
+  {
+    "topic": "Intervisibility",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Define “intervisibility”"
+  },
+  {
+    "topic": "Intervisibility",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Outline an algorithm to determine the viewshed (area visible) from specific locations on surfaces specified by DEMs"
+  },
+  {
+    "topic": "Intervisibility",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Perform siting analyses using specified visibility, slope, and other surface related constraints"
+  },
+  {
+    "topic": "Intervisibility",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the sources and impact of errors that affect intervisibility analyses"
+  },
+  {
+    "topic": "Kriging Interpolation",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe the relationship between the semi-variogram and kriging"
+  },
+  {
+    "topic": "Kriging Interpolation",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain why it is important to have a good model of the semi-variogram in kriging"
+  },
+  {
+    "topic": "Kriging Interpolation",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the concept of the kriging variance, and describe some of its shortcomings"
+  },
+  {
+    "topic": "Kriging Interpolation",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain how block-kriging and its variants can be used to combine data sets with different spatial resolution (support)"
+  },
+  {
+    "topic": "Kriging Interpolation",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Compare and contrast block-kriging with areal interpolation using proportional area weighting"
+  },
+  {
+    "topic": "Kriging Interpolation",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Outline the basic kriging equations in their matrix formulation"
+  },
+  {
+    "topic": "Kriging Interpolation",
+    "theme": "Surface & Field Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain why kriging is more suitable as an interpolation method in some applications than others"
+  },
+  {
+    "topic": "Modelling Accessibility",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Sketch the different conceptualizations of space (data models) and distance on paper. Identify and discuss limitations associated with each type of analysis, including the necessary data required to utilize a given distance measure."
+  },
+  {
+    "topic": "Modelling Accessibility",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Provide examples of situations where it would be appropriate to use one form of distance measure vs another in the calculation of accessibility measures."
+  },
+  {
+    "topic": "Modelling Accessibility",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Identify the four classes of accessibility models and measures. Students can explain the general formulation of each of these models."
+  },
+  {
+    "topic": "Modelling Accessibility",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Implement and interpret the four basic spatial accessibility measures in a GIS using available tools."
+  },
+  {
+    "topic": "Modelling Accessibility",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Analyse the variation in accessibility measures statistically and across space."
+  },
+  {
+    "topic": "Modelling Accessibility",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain how the ecological fallacy and modifiable areal unit problem relates to the use of aggregate measures of accessibility."
+  },
+  {
+    "topic": "The Classic Transportation Problem",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Demonstrate how to model the real-world transportation problems as linear programs."
+  },
+  {
+    "topic": "The Classic Transportation Problem",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Define the classic transportation problem analytically using graphs, equations, and matrices."
+  },
+  {
+    "topic": "The Classic Transportation Problem",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Distinguish between balanced and unbalanced problems, and explain why, if supply equals demand, there will always be a feasible solution."
+  },
+  {
+    "topic": "The Classic Transportation Problem",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Delineate two major steps toward solving the classic transportation problem as linear program, and use simplex methods to get the optimal solution."
+  },
+  {
+    "topic": "The Classic Transportation Problem",
+    "theme": "Network & Location Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe the major contributions of GIS to the classic transportation problem, and new opportunities and challenges presented by the 21st century."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Understand that models have a range of meaning, from conceptual to mathematical and computational."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Recognize that models can be both static (in place) and dynamic (in time) and give examples of each."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Know that GIS and computational models are linked in different ways, from tight to loose coupling."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the critical phases of modeling: design, implementation, calibration, sensitivity analysis, validation and error analysis."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Be able to give examples of how models are used in simulations, and how their accuracy and uncertainty can be measured and communicated."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "See why scenario-based planning, informed by modeling, is an important tool across Geography."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Understand the different model types, and their application methods."
+  },
+  {
+    "topic": "GIS-Based Computational Modeling",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Value the importance of tools that make models more shared, such as open source software and common code libraries."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Sketch the most important conceptual data models and data structures for movement spaces and respective movement traces. Discuss opportunities and limitations of the above models and structures for the conceptualization of specific movement patterns."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss the importance and implications of the classic spatial data quality concepts precision, accuracy, and vagueness for the movement analysis process."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain and apply basic trajectory operations.\nDiscuss and apply the crucial task of segmentation in Computational Movement Analysis, especially for separating stops from moves.\nExplain at least three different trajectory similarity measures in their own words and by drawing simple sketches. Assess the suitability of different trajectory similarity measures for different types of given movement data."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss and apply the crucial task of segmentation in Computational Movement Analysis, especially for separating stops from moves."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain at least three different trajectory similarity measures in their own words and by drawing simple sketches. Assess the suitability of different trajectory similarity measures for different types of given movement data."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "List several movement patterns and conceptualize their patterns. Sketch patterns with pen and paper and devise algorithms for detecting movement patterns in movement data."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss why movement should be analyzed in its geographic context. Conceptualize and sketch computational approaches for relating movement data to geographic context data, considering different conceptual models for the movement and the movement spaces."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain why complementing raw movement trajectories with auxiliary sensor data is key for understanding movement processes. List at least 5 additional sensor types that are often used together with location sensors."
+  },
+  {
+    "topic": "Computational Movement Analysis",
+    "theme": "Space-Time Analysis & Modeling",
+    "area": "analytics and modeling",
+    "learning_objective": "Name key visual analytics approaches for analyzing movement data, and list their properties and limitations."
+  },
+  {
+    "topic": "Cellular Automata",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe what a cellular automaton is and what its key components are."
+  },
+  {
+    "topic": "Cellular Automata",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss how CA evolved through its development in mathematics, computer science, and geography."
+  },
+  {
+    "topic": "Cellular Automata",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Identify CA principles and patterns using the game of Life and simple software."
+  },
+  {
+    "topic": "Cellular Automata",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Summarize how CA has been adapted for modeling in geography using GIS."
+  },
+  {
+    "topic": "Cellular Automata",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Critique CA for modeling geographical systems."
+  },
+  {
+    "topic": "Cellular Automata",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Demonstrate how to examine the CA research literature."
+  },
+  {
+    "topic": "Agent-based Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Create a drawing of a system of interest. Sketch out the agents belonging to this system, the nature in which these agents interact with each other, and how these agents interact with their surrounding landscape."
+  },
+  {
+    "topic": "Agent-based Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe how local interactions amongst individual agents can lead to emergent spatial patterns."
+  },
+  {
+    "topic": "Agent-based Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the difference between top-down and bottom-up modeling approaches."
+  },
+  {
+    "topic": "Agent-based Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Explore a real agent-based model and define the main modeling components."
+  },
+  {
+    "topic": "Simulation Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Compare and contrast different design choices in developing simulation models"
+  },
+  {
+    "topic": "Simulation Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss different ways of simulating space and visualizing model behavior"
+  },
+  {
+    "topic": "Simulation Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss the implications of stochastic model assumptions for the design of simulation experiments"
+  },
+  {
+    "topic": "Simulation Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Conduct a simulation experiment using available simulation software"
+  },
+  {
+    "topic": "Simulation Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Discuss the utility of generating synthetic datasets from simulation experiments to make inferences about system behavior"
+  },
+  {
+    "topic": "Simulation Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe how optimization methods involving Monte Carlo sampling of parameter space can be used to identify leverage points for policy intervention"
+  },
+  {
+    "topic": "Simulation Modeling",
+    "theme": "Geocomputational Methods & Models",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain how simulation models can be used to provide advance scientific knowledge in different geographic subfields (transportation, health geography, economic geography, urban and regional analysis, earth systems science)"
+  },
+  {
+    "topic": "Artificial Intelligence Approaches",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the general concept of artificial intelligence."
+  },
+  {
+    "topic": "Artificial Intelligence Approaches",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe the relations among AI, machine learning, and deep learning."
+  },
+  {
+    "topic": "Artificial Intelligence Approaches",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the main difference between supervised learning and unsupervised learning."
+  },
+  {
+    "topic": "Artificial Intelligence Approaches",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe an example application of AI in geography."
+  },
+  {
+    "topic": "Rule Learning for Spatial Data Mining",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Describe characteristics of spatial data that affect spatial rule learning."
+  },
+  {
+    "topic": "Rule Learning for Spatial Data Mining",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Explain the fundamentals of spatial association rule learning."
+  },
+  {
+    "topic": "Rule Learning for Spatial Data Mining",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Compare and contrast SAR learning and spatial regression for correlation analysis."
+  },
+  {
+    "topic": "Rule Learning for Spatial Data Mining",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Define the fundamentals of co-location rule learning."
+  },
+  {
+    "topic": "Rule Learning for Spatial Data Mining",
+    "theme": "Big Data & Geospatial Analysis",
+    "area": "analytics and modeling",
+    "learning_objective": "Compare and contrast co-location rule learning and spatial analysis techniques for co-presence such as overlay."
+  },
+  {
+    "topic": "Statistical Mapping (Enumeration, Normalization, Classification)",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Discuss advantages and disadvantages of various data classification methods for choropleth mapping, including equal interval, quantiles, mean-standard deviation, natural breaks, and “optimal” methods"
+  },
+  {
+    "topic": "Statistical Mapping (Enumeration, Normalization, Classification)",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Apply various techniques for normalizing data"
+  },
+  {
+    "topic": "Statistical Mapping (Enumeration, Normalization, Classification)",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Demonstrate how different classification schemes produce very different maps from a single set of interval- or ratio-level data"
+  },
+  {
+    "topic": "Statistical Mapping (Enumeration, Normalization, Classification)",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Write algorithms to perform equal interval, quantiles, mean-standard deviation, natural breaks, and “optimal” classification for choropleth mapping"
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe the geometric properties of the globe that may be distorted in the map projection process."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe at least one technique for visualizing distortion (e.g.,  Tissot’s indicatrices, or continuous distortion surfaces) and use it to visualize distortion."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Identify and describe the distortion pattern in a specific map projection using a common visualization method (e.g., Tissot’s indicatrices) or distortion surface."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare multiple map projections to explain the difference in distortion patterns, and how the maps would be suited for different analysis or visualization purposes."
+  },
+  {
+    "topic": "Map Projections",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design a thematic map that uses a map projection appropriate to the theme and map purpose."
+  },
+  {
+    "topic": "Color Theory",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Discuss the perceptual basis for color.•Understand: Select colors appropriate for map readers with color limitations."
+  },
+  {
+    "topic": "Color Theory",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Select a color scheme (e.g., qualitative, sequential, diverging) that is appropriate for a given map purpose and variable."
+  },
+  {
+    "topic": "Color Theory",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare and contrast different color models by their purposes and gamuts."
+  },
+  {
+    "topic": "Color Theory",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique a map based on the real-world and cross-cultural connotations evoked by the color selections on maps."
+  },
+  {
+    "topic": "Color Theory",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design a map taking into account the range of factors that should be considered in selecting colors."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Define the terms typeface and label."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain the difference between typeface properties (microaesthetics) and label properties (visual variables)."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Differentiate between the components of a font: typeface, weight, compression, and posture."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Identify personalities of typefaces, and the microaesthetics that contribute to them."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Modify typographic visual variables to graphically represent the type and attributes of geographic feature."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain how to label features having indeterminate boundaries (e.g., canyons, oceans)."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique a typeface for a given map, analyzing what is appropriate and/or inappropriate about it."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Implement techniques to improve typeface and label legibility, and to disambiguate labels."
+  },
+  {
+    "topic": "Typography",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Adjust label properties to create an appropriate label hierarchy."
+  },
+  {
+    "topic": "Design and Aesthetics",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Define cartographic design, differentiating four different usages of the word."
+  },
+  {
+    "topic": "Design and Aesthetics",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Differentiate between the words style and aesthetic."
+  },
+  {
+    "topic": "Design and Aesthetics",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare and contrast the stylistic elements of different pastiche map styles (e.g., realism, minimalism, cartooning) by form, color, type, and texture."
+  },
+  {
+    "topic": "Design and Aesthetics",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Deconstruct of a map’s stylistic choices regarding form, color, type, and texture."
+  },
+  {
+    "topic": "Design and Aesthetics",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Modify the style of a map to mimic another style (pastiche) regarding form, color, type, and texture."
+  },
+  {
+    "topic": "Map Production and Management",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe the importance of the audience and the intention at the beginning of any project."
+  },
+  {
+    "topic": "Map Production and Management",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Walkthrough the “Planning” steps for a project that you have completed recently. Identify where better planning could have improved execution of your project."
+  },
+  {
+    "topic": "Map Production and Management",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Evaluate a completed map identifying each of the “Planning” phases and how effectively the goals were achieved."
+  },
+  {
+    "topic": "Map Production and Management",
+    "theme": "Map Design Fundamentals:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Create a project plan for a map, from planning to closing."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Discuss the relative merits of bivariate and multivariate cartography for their topic and audience."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Create maps that encode multiple variables into map symbolization."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Identify interesting relationships uniquely revealed by their bivariate or multivariate representation."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Choose suitable visual dimensions to appropriately represent their multiple variables."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe categories, and specific methods, of bivariate and multivariate mapping."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain the nature of relationships between phenomena in a bivariate choropleth map."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design effective and concise legends for bivariate and multivariate maps."
+  },
+  {
+    "topic": "Multivariate Mapping",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Consider variations upon, or alternatives to, bivariate and multivariate mapping."
+  },
+  {
+    "topic": "Representing Uncertainty",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe potential types of uncertainty in a given geospatial dataset"
+  },
+  {
+    "topic": "Representing Uncertainty",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare and contrast different techniques for representing uncertainty in maps (e.g., the use of static vs. dynamic approaches)"
+  },
+  {
+    "topic": "Representing Uncertainty",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Evaluate uncertainty representation techniques by their suitability for representing different types of uncertainty (e.g., intrinsic vs. extrinsic, adjacent vs. coincident, static vs. dynamic)"
+  },
+  {
+    "topic": "Representing Uncertainty",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design uncertainty representations for different types of uncertainty, spatial dimensions, and user tasks"
+  },
+  {
+    "topic": "Terrain Representation",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Derive values of slope and aspect from a contour map or from point elevation values."
+  },
+  {
+    "topic": "Terrain Representation",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Apply various hypsometric tinting schemes to an elevation layer in GIS, and combine this with a relief shading layer using transparency or a similar approach. Discuss how relief shading changes the hypsometric color scheme."
+  },
+  {
+    "topic": "Terrain Representation",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare the elevation values of a number of nearby and widely separated points on a DEM, and see how shaded relief values correspond to these differences."
+  },
+  {
+    "topic": "Terrain Representation",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique examples of terrain representation based on their relative pros and cons."
+  },
+  {
+    "topic": "Terrain Representation",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design a stylized terrain map from a digital elevation model (DEM)."
+  },
+  {
+    "topic": "Cartograms",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe the different purposes that cartograms serve in relation to other thematic mapping techniques."
+  },
+  {
+    "topic": "Cartograms",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare and contrast the advantages and limitations of non-contiguous, contiguous, graphical/Demers/Dorling, and mosaic cartograms."
+  },
+  {
+    "topic": "Cartograms",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique examples of different types of cartograms by their relative success at communicating information."
+  },
+  {
+    "topic": "Cartograms",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design a range of cartograms to suit particular needs."
+  },
+  {
+    "topic": "Map Icon Design",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique a map icon library based on the culturally negotiated meanings imbued in the signs. Consider who or what may be excluded from the library."
+  },
+  {
+    "topic": "Map Icon Design",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare and contrast the types of icons used in map design"
+  },
+  {
+    "topic": "Map Icon Design",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain the difference between mimetic and abstract icons"
+  },
+  {
+    "topic": "Map Icon Design",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Define pictorial, associative, and abstract as these terms relate to icon design"
+  },
+  {
+    "topic": "Map Icon Design",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Summarize the challenges and tools for designing map icons that challenge power structures"
+  },
+  {
+    "topic": "Map Icon Design",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Illustrate how the visual variables are employed effectively in map icon design"
+  },
+  {
+    "topic": "Map Icon Design",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Create a map icon library with a coherent aesthetic style, denoting their referents, which can be modified using other visual variables to encode additional information."
+  },
+  {
+    "topic": "Flow Maps",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe the different purposes that flow maps serve in relation to other thematic mapping techniques."
+  },
+  {
+    "topic": "Flow Maps",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Recognize and describe the distinction between different types of flow maps used in cartography and other fields."
+  },
+  {
+    "topic": "Flow Maps",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Identify appropriate symbolization choices given the phenomenon being represented."
+  },
+  {
+    "topic": "Flow Maps",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique examples of different types of flow maps by their relative success at communicating information."
+  },
+  {
+    "topic": "Flow Maps",
+    "theme": "Map Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design a flow map to suit particular needs."
+  },
+  {
+    "topic": "User Interface and User Experience (UI/UX) Design",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe traditional and emerging use cases for interactivity in cartography and visualization (e.g., exploration, analytics, presentation)."
+  },
+  {
+    "topic": "User Interface and User Experience (UI/UX) Design",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe a user need for the following interaction operators: panning, zooming, overview reexpression, filtering, detail retrieval, etc."
+  },
+  {
+    "topic": "User Interface and User Experience (UI/UX) Design",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Walkthrough the stages of interaction using different interface controls in an interactive map and identify potential breakdowns and solutions."
+  },
+  {
+    "topic": "User Interface and User Experience (UI/UX) Design",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Deconstruct an interactive map into its basic interaction primitives."
+  },
+  {
+    "topic": "User Interface and User Experience (UI/UX) Design",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Evaluate an interactive map design by UI/UX design recommendations (e.g., affordances/feedback, interface complexity, interface styles, design heuristics)."
+  },
+  {
+    "topic": "User Interface and User Experience (UI/UX) Design",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design an interactive map suitable for a given set of user needs."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Identify examples of static, animated, and interactive web maps."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain client-server network architecture."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain how a tiled map mashup is created."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Use a geospatial web service in a map or GIS project."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Identify the sources of data, representation, and animation or interaction in an example web map and the roles played by each."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique the usability of existing web maps, including visual design choices, user interface, and interaction affordances and feedbacks."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Determine a web map's intended purpose and assess its use of visual hierarchy and interaction based on that purpose."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design, construct, and publish an interactive web map."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Format the styling, text, layout, image resolution, and file type of a static map so that it can be included in a well-designed web page."
+  },
+  {
+    "topic": "Web Mapping",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Publish a web map service or web map tile service."
+  },
+  {
+    "topic": "Big Data Visualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe the characteristics of big data and the differences between ‘small’ data and big data."
+  },
+  {
+    "topic": "Big Data Visualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain how visualization of geographic big data can be used in two different modes: for visual communication and visual thinking."
+  },
+  {
+    "topic": "Big Data Visualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Critique a big data visualization by how well it overcame computational, visual, and ethical challenges"
+  },
+  {
+    "topic": "Big Data Visualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Evaluate how visualization may be employed to generate new knowledge from a (big) dataset"
+  },
+  {
+    "topic": "Big Data Visualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Develop a visualization for the exploration and analysis of big data"
+  },
+  {
+    "topic": "Usability Engineering & Evaluation",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe the differences between usability, utility, and user needs as applied to cartography and visualization."
+  },
+  {
+    "topic": "Usability Engineering & Evaluation",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Understand the basics of usability engineering approaches."
+  },
+  {
+    "topic": "Usability Engineering & Evaluation",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Compare and contrast different kinds of evaluation methods for cartography and visualization (e.g., qualitative versus quantitative, formative versus summative studies)."
+  },
+  {
+    "topic": "Usability Engineering & Evaluation",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Determine which methods you can use in a mixed method setting to derive user needs and characteristics for an interactive mapping project."
+  },
+  {
+    "topic": "Usability Engineering & Evaluation",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Schedule a user-centered design process for acquiring feedback from target users throughout design and development."
+  },
+  {
+    "topic": "Usability Engineering & Evaluation",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Evaluate the usability of an interactive map or visualization according to how the representation and interface features support user stated needs."
+  },
+  {
+    "topic": "Usability Engineering & Evaluation",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design and implement a series of evaluations to (iteratively) evaluate the usability of (geospatial) products."
+  },
+  {
+    "topic": "Geovisualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Understand how geovisualization is defined, differentiate between the different ways in which the term geovisualization is used"
+  },
+  {
+    "topic": "Geovisualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Identify the characteristics of geovisualization as a process, and relate these characteristics to modern day mapping systems and map use"
+  },
+  {
+    "topic": "Geovisualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Understand the relevant abilities, skills, and literacy in successfully working with geovisualization environments"
+  },
+  {
+    "topic": "Geovisualization",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Use a geovisualization application to explore a geospatial dataset. Note the geographic insights you find and hypotheses worth pursuing with additional analysis and visualization"
+  },
+  {
+    "topic": "Geovisual Analytics",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Explain the key characteristics of geovisual analytics."
+  },
+  {
+    "topic": "Geovisual Analytics",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Describe the evolution of geovisual analytics as a sub-field in GIScience and its linkages to fields outside of Geography."
+  },
+  {
+    "topic": "Geovisual Analytics",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Propose and justify potential problem contexts for the application of geovisual analytics."
+  },
+  {
+    "topic": "Geovisual Analytics",
+    "theme": "Interactive Design Techniques:",
+    "area": "Cartography and Visualization",
+    "learning_objective": "Design and implement a geovisual analytics system using a user-centered design approach."
+  },
+  {
+    "topic": "Agriculture",
+    "theme": "Agriculture",
+    "area": "Domain Applications",
+    "learning_objective": "Identify three sources of uncertainty in GIS&T data for agriculture and how these sources of uncertainty might interact with uncertainty widely present in agricultural systems."
+  },
+  {
+    "topic": "Agriculture",
+    "theme": "Agriculture",
+    "area": "Domain Applications",
+    "learning_objective": "Map an information chain from data collection to service delivery for GIS&T in agriculture."
+  },
+  {
+    "topic": "Agriculture",
+    "theme": "Agriculture",
+    "area": "Domain Applications",
+    "learning_objective": "Differentiate the uses of GIS&T in agriculture a smallholder/developing world setting, versus large-scale agriculture in high income countries."
+  },
+  {
+    "topic": "Agriculture",
+    "theme": "Agriculture",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss the role that “knowledge brokers” have in facilitating the use of GIS&T in agriculture."
+  },
+  {
+    "topic": "Agriculture",
+    "theme": "Agriculture",
+    "area": "Domain Applications",
+    "learning_objective": "Propose a sustainable business model built around a geoinformation application or service oriented to supporting either large scale or smallholder agriculture."
+  },
+  {
+    "topic": "Archaeology",
+    "theme": "Archaeology",
+    "area": "Domain Applications",
+    "learning_objective": "Describe the three primary applications of GIS&T for archaeology"
+  },
+  {
+    "topic": "Archaeology",
+    "theme": "Archaeology",
+    "area": "Domain Applications",
+    "learning_objective": "Identify and describe GIS&T tools commonly used in archaeological research"
+  },
+  {
+    "topic": "Archaeology",
+    "theme": "Archaeology",
+    "area": "Domain Applications",
+    "learning_objective": "Explain how environmental factors influence remote sensing tools."
+  },
+  {
+    "topic": "Archaeology",
+    "theme": "Archaeology",
+    "area": "Domain Applications",
+    "learning_objective": "Describe the advantages and limitations of the different GIS&T tools."
+  },
+  {
+    "topic": "Civil Engineering",
+    "theme": "Civil Engineering",
+    "area": "Domain Applications",
+    "learning_objective": "Explain the use of GIS&T in the common sub-disciplines of the Civil Engineering profession."
+  },
+  {
+    "topic": "Civil Engineering",
+    "theme": "Civil Engineering",
+    "area": "Domain Applications",
+    "learning_objective": "Explain and describe the common areas of research at the intersection of GIS&T and Civil Engineering."
+  },
+  {
+    "topic": "Digital Humanities",
+    "theme": "Digital Humanities",
+    "area": "Domain Applications",
+    "learning_objective": "Define and explain the meaning of the terms “digital humanities” and “spatial humanities”"
+  },
+  {
+    "topic": "Digital Humanities",
+    "theme": "Digital Humanities",
+    "area": "Domain Applications",
+    "learning_objective": "Provide examples of the use and utility of GIS&T in the digital humanities"
+  },
+  {
+    "topic": "Digital Humanities",
+    "theme": "Digital Humanities",
+    "area": "Domain Applications",
+    "learning_objective": "Define and explain the meaning of the geographical concepts of space, place, and scale and how they relate to the humanities"
+  },
+  {
+    "topic": "Digital Humanities",
+    "theme": "Digital Humanities",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss the precursors to the spatial turn in the humanities, and specifically the ideas of chronotope and geohistoire, and Hägerstrand’s time-geography"
+  },
+  {
+    "topic": "Digital Humanities",
+    "theme": "Digital Humanities",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss the epistemological and ontological barriers to the use of GIS&T in the humanities, and possible solutions"
+  },
+  {
+    "topic": "Digital Humanities",
+    "theme": "Digital Humanities",
+    "area": "Domain Applications",
+    "learning_objective": "Explain what is meant by “qualitative GIS” and “GIS of place” (or “platial GIS”)"
+  },
+  {
+    "topic": "Education",
+    "theme": "Education",
+    "area": "Domain Applications",
+    "learning_objective": "Summarize the origins of GIS&T education in formal learning environments."
+  },
+  {
+    "topic": "Education",
+    "theme": "Education",
+    "area": "Domain Applications",
+    "learning_objective": "Explain how GIS educational has mirrored advances in computing and digital technologies, and the role of the Internet."
+  },
+  {
+    "topic": "Education",
+    "theme": "Education",
+    "area": "Domain Applications",
+    "learning_objective": "Describe the curricular, research, and administrative roles that GIS plays in higher education."
+  },
+  {
+    "topic": "Education",
+    "theme": "Education",
+    "area": "Domain Applications",
+    "learning_objective": "Compare and contrast the “first” and “second” phases of GIS&T education."
+  },
+  {
+    "topic": "Epidemiology",
+    "theme": "Epidemiology",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss the importance of GIS in epidemiology."
+  },
+  {
+    "topic": "Epidemiology",
+    "theme": "Epidemiology",
+    "area": "Domain Applications",
+    "learning_objective": "Compare and contrast the features of descriptive vs. analytic epidemiologic studies."
+  },
+  {
+    "topic": "Epidemiology",
+    "theme": "Epidemiology",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss the implications of geographic data availability in epidemiology."
+  },
+  {
+    "topic": "Epidemiology",
+    "theme": "Epidemiology",
+    "area": "Domain Applications",
+    "learning_objective": "Explain how GIS has been used in exposure assessment and exposure modeling."
+  },
+  {
+    "topic": "Epidemiology",
+    "theme": "Epidemiology",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss issues and research challenges in epidemiologic studies using GIS."
+  },
+  {
+    "topic": "Epidemiology",
+    "theme": "Epidemiology",
+    "area": "Domain Applications",
+    "learning_objective": "Describe research advances relevant to the use of GIS in epidemiology."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Create accurate point, line, and polygon feature data using GNSS alone, from field data collection, through data transfer, quality control, conversion, projection, and attribute creation. Moreover, the student should be able to explain the primary factors that affect accuracy, including satellite constellation configuration and PDOP, multi-system receivers, point averaging, signal interception, and multi-path errors, and how these may be avoided or their impacts minimized to achieve high accuracies."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Identify the primary Cartesian coordinate systems used in their region of interest, and the difference and projection from geographic to Cartesian systems. Estimate surface distances between points in either type of system."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Integrate basic, short distance plane surveying with GNSS to calculate coordinate locations, and establish points, lines, and polygons, and calculate areas. Demonstrate proficiency in basic angle measurements using handheld, staff, tripod, or electronic compass, and distance measurement with a chain, tape, or laser rangefinder."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Create and implement all workflows for field data collection, from developing field spatial and attribute data needs, designing and creating electronic field forms with pick lists and error trapping as appropriate, through upload, collection, download, quality control, intermediate processing, and integration into office spatial databases."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Identify, download, prepare, and interpret public data sources relevant to forestry, including USDA Agricultural Research Service National Aerial Imagery Program aerial photographs, NRCS SSURGO soils data, USGS digital elevation data, USDA National Agricultural Service Crop Data Layer data, USFWS National Wetlands Inventory data, and USGS National Hydrography Dataset streams, rivers, and lakes data."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Digitize features from high-resolution (sub-meter or better) digital color infrared aerial images, and identify the regionally important stand types and non-forest vegetation and landcover types.  Apply basic and intermediate vector editing techniques, including point and stream-mode digitizing, polygon auto-completion, selecting, clipping, and merging polygons, and splining and smoothing. The students can create topologically correct vector line and polygon layers, enforcing completeness and planarity as necessary in the data they create, and perform basic attribute table creation and manipulation."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Create a functional, multi-table database with proper primary and foreign keys and relevant attributes, e.g., inventory and harvest tables that may be joined to stand tables."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Understand, explain, and perform spatial and table selection, e.g., select all vegetation patches that are entirely underlain by erodible soils, or select all forest stands older than 80 years and more than 2000 feet from a road."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Understand, explain, and perform adjacency and proximity analysis, for example, identify all lands within 100 feet of perennial streams, or all forest stands adjacent to existing forest stands less than five years old."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Demonstrate basic skills in digital cartography, via the production of hardcopy and digital maps with appropriate layout and information."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Design a system for creating a given target spatial data layer, including end user needs assessment, geographic and attribute data characteristic and accuracy specifications, collection, quality control, and processing protocols, workflows, accuracy assessment and documentation, and metadata development."
+  },
+  {
+    "topic": "Forestry",
+    "theme": "Forestry",
+    "area": "Domain Applications",
+    "learning_objective": "Evaluate spatial data processing workflows to verify each meets the specific information needs common in forest resource management."
+  },
+  {
+    "topic": "Geodesign",
+    "theme": "Geodesign",
+    "area": "Domain Applications",
+    "learning_objective": "Define geodesign and describe how it contributes to GIS&T."
+  },
+  {
+    "topic": "Geodesign",
+    "theme": "Geodesign",
+    "area": "Domain Applications",
+    "learning_objective": "Describe the four essential groups of people that are needed for a collaborative geodesign project."
+  },
+  {
+    "topic": "Geodesign",
+    "theme": "Geodesign",
+    "area": "Domain Applications",
+    "learning_objective": "Describe the opportunities that might be possible in land planning and design practices through deploying the geodesign process."
+  },
+  {
+    "topic": "Local Government",
+    "theme": "Local Government",
+    "area": "Domain Applications",
+    "learning_objective": "Summarize why and how GIS is used in local government."
+  },
+  {
+    "topic": "Local Government",
+    "theme": "Local Government",
+    "area": "Domain Applications",
+    "learning_objective": "Explain how GIS makes local governments more efficient."
+  },
+  {
+    "topic": "Local Government",
+    "theme": "Local Government",
+    "area": "Domain Applications",
+    "learning_objective": "Describe useful skills students should learn in higher education that would translate well to a career in local government GIS."
+  },
+  {
+    "topic": "Marine Science",
+    "theme": "Marine Science",
+    "area": "Domain Applications",
+    "learning_objective": "Identify, understand, and help overcome the barriers to use of scientific oceanographic data by GIS users, as well as increase the use of GIS tools by ocean science and resource management users."
+  },
+  {
+    "topic": "Marine Science",
+    "theme": "Marine Science",
+    "area": "Domain Applications",
+    "learning_objective": "Develop recommendations and practical solutions to help bridge the gap between ocean science/management and GIS, including increase integration of ocean data and improved analytical tools"
+  },
+  {
+    "topic": "Marine Science",
+    "theme": "Marine Science",
+    "area": "Domain Applications",
+    "learning_objective": "Improve communication between marine GIS practitioners and developers, particularly for science applications. This applies to both open source and proprietary systems"
+  },
+  {
+    "topic": "Marine Science",
+    "theme": "Marine Science",
+    "area": "Domain Applications",
+    "learning_objective": "Expand the reach of scientific ocean data to broader user communities, such as for decision support, coastal and marine spatial planning (CMSP; including the science of CMSP)"
+  },
+  {
+    "topic": "Marketing",
+    "theme": "Marketing",
+    "area": "Domain Applications",
+    "learning_objective": "Describe the enabling technologies that have accelerated the adoption of GIS in marketing and explain their impact."
+  },
+  {
+    "topic": "Marketing",
+    "theme": "Marketing",
+    "area": "Domain Applications",
+    "learning_objective": "Explain the core marketing planning processes, identify GIS applications for each and describe the contribution of those applications,"
+  },
+  {
+    "topic": "Marketing",
+    "theme": "Marketing",
+    "area": "Domain Applications",
+    "learning_objective": "Describe how marketing managers use marketing research, market segmentation and consumer profiling to identify and exploit market opportunities. Explain how location analytics resources support these analytical processes."
+  },
+  {
+    "topic": "Marketing",
+    "theme": "Marketing",
+    "area": "Domain Applications",
+    "learning_objective": "Identify and describe three specialized areas in marketing in which GIS resources are useful.  Explain the application of location analytics tools in each."
+  },
+  {
+    "topic": "Marketing",
+    "theme": "Marketing",
+    "area": "Domain Applications",
+    "learning_objective": "Describe how big data, continuous data tracking and streaming, the Internet of things (IoT) and SoLoMo marketing have enhanced enterprise knowledge of current and potential customers. Explain how location analytics tools have contributed to these technologies."
+  },
+  {
+    "topic": "Marketing",
+    "theme": "Marketing",
+    "area": "Domain Applications",
+    "learning_objective": "Describe how the role of the GIS professional in supporting enterprise marketing efforts has expanded.  Explain how the enabling technologies and location analytics resources described here have enabled that expansion."
+  },
+  {
+    "topic": "Natural Resource Management",
+    "theme": "Natural Resource Management",
+    "area": "Domain Applications",
+    "learning_objective": "Describe how natural resource management is inherently spatial and benefits from the use of GIS."
+  },
+  {
+    "topic": "Natural Resource Management",
+    "theme": "Natural Resource Management",
+    "area": "Domain Applications",
+    "learning_objective": "List at least four natural resource areas that benefit from the use of GIS."
+  },
+  {
+    "topic": "Natural Resource Management",
+    "theme": "Natural Resource Management",
+    "area": "Domain Applications",
+    "learning_objective": "Summarize the hydrology commands used in GIS that help to analyze data for watershed management."
+  },
+  {
+    "topic": "Natural Resource Management",
+    "theme": "Natural Resource Management",
+    "area": "Domain Applications",
+    "learning_objective": "Compare the spatial datasets of land cover and elevation as inputs for natural resource management."
+  },
+  {
+    "topic": "Natural Resource Management",
+    "theme": "Natural Resource Management",
+    "area": "Domain Applications",
+    "learning_objective": "Explain how landscape analysis is found across many natural resource management applications."
+  },
+  {
+    "topic": "Public Health",
+    "theme": "Public Health",
+    "area": "Domain Applications",
+    "learning_objective": "Explain why GIS is demanded in public health."
+  },
+  {
+    "topic": "Public Health",
+    "theme": "Public Health",
+    "area": "Domain Applications",
+    "learning_objective": "Describe what public health issues GIS have been applied to."
+  },
+  {
+    "topic": "Public Health",
+    "theme": "Public Health",
+    "area": "Domain Applications",
+    "learning_objective": "Investigate the frontiers of the applications in public health that are being pushed by the development of GIS."
+  },
+  {
+    "topic": "Real Estate",
+    "theme": "Real Estate",
+    "area": "Domain Applications",
+    "learning_objective": "Explain why “location, location, location” would be a key tenet of the real estate business."
+  },
+  {
+    "topic": "Real Estate",
+    "theme": "Real Estate",
+    "area": "Domain Applications",
+    "learning_objective": "Define and describe the set of knowledge and skills that a Real Estate GIS Specialist is likely to require."
+  },
+  {
+    "topic": "Real Estate",
+    "theme": "Real Estate",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss how GIS and related digital geospatial technologies have influenced the workflows of a real estate appraiser."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Identify sources of data used for analysis within retail GIS and describe how the data are integrated."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss the concept of Census geographies, demography, and the origins of market segmentation, and the role that plays in retail GIS."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Retail sales are a function of market characteristics (Jones, 1990), and important characteristics include customers' income, location, demographics and lifestyle (the latter two are often combined into the term \"psychographics\"). Explain the role of each of these characteristics plays when a retailer considers a location."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Examine how location relates to customer behavior, and how this might differ in an urban versus a suburban or rural setting."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Discuss the factors which influence site selection, such as available land or AADT’s (Annual Average Daily Trips)."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Describe the appropriate context for using simple rings, and identify the limitations and how issues like population density or income changes be accounted for."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Compare and contrast data-driven rings differ with simple rings accounting for their suitability in different settings."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Explain how Thiessen Polygons account for physical barriers and how they can be used in retail settings."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Explain how Drive-Time Rings account for physical barriers and the relative importance of road speeds."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Identify and describe the limitations of drive-time rings in different settings and how GIS manages these."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Differentiate between drive-time rings and network partitions, including their utility for retail settings. ."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Identify data sources that can be integrated into network partition models."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Classify the different metrics that can be used to measure or quantify “attractiveness” for a retailer."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Review the limitations of the Huff model in its pure form."
+  },
+  {
+    "topic": "Retail Business",
+    "theme": "Retail Business",
+    "area": "Domain Applications",
+    "learning_objective": "Identify additional tools that can be incorporated along with the Huff Model to get a more accurate trader area and/or to take into consideration of physical travel barriers."
+  },
+  {
+    "topic": "Liability",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Describe the nature of tort law generally and nuisance law specifically"
+  },
+  {
+    "topic": "Liability",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Describe strategies for managing liability risk, including disclaimers and data quality standards"
+  },
+  {
+    "topic": "Liability",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Describe cases of liability claims associated with misuse of geospatial information, erroneous information, and loss of proprietary interests"
+  },
+  {
+    "topic": "Liability",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Differentiate among contract liability, tort liability, and statutory liability"
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Define location privacy."
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Situate location privacy within general privacy."
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Draw connections between location privacy and GIS&T."
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss how spatial data, GPS-enabled devices such as smartphones, the Internet of Things (geolocated objects that provide their location), and the Software as a Service (SaaS) GIS model have combined to bring society to its current high concern about location privacy."
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss the types of location privacy."
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Describe ways to protect location privacy."
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss societal benefits and potential societal harm from the use of individuals’ location information."
+  },
+  {
+    "topic": "Location Privacy",
+    "theme": "Law Regulation and Policy",
+    "area": "GIS&T and society",
+    "learning_objective": "Use activity based on individuals’ location information, such as adding data to a crowdsourced map or using map showing social media postings on specific topics."
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Define Citizen Science, Crowdsourcing, Volunteered Geographic Information (VGI), Gamification and Hackathon"
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss different types of Citizen Science activities (passive sensing, volunteer computing, volunteer thinking, environmental and ecological observation, participatory sensing, community/civic science) and potential motivations (intrinsic and extrinsic motives) participants may have to engage with projects"
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Demonstrate an understanding of models of participation (contractual projects, contributory projects, collaborative projects, co-created projects, collegial contributions) (Shirk et al., 2012)."
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Describe the five elements of the Framework for citizen science projects (inputs, activities, outputs, outcomes, impacts) (Shirk et al., 2012)."
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss some positive (increased interest in science, innovations in GIS&T) and negative aspects (digital divide issues, purposeful misinformation) that may affect people when using GIS&T in Citizen Science projects"
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Describe some methods of encouraging and sustaining engagement in Citizen Science projects using GIS&T (gamification, crowdsourcing initiatives, mapping parties, hackathons)"
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss ways of handling potential data quality issues associated with data collected through GIS&T on Citizen Science projects (moderation, checking data) and the value of collected data (increased awareness and support, scales of possible data collection)"
+  },
+  {
+    "topic": "Citizen Science with GIS&T",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss the benefits (greater participation rates, increased external validity, decreased loss of follow-up, increased individual and community capacity) and drawbacks (selection bias, decreased randomization, unrepresentative groups) for community involvement in community-based participatory research"
+  },
+  {
+    "topic": "Spatial Decision Support",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Describe the scope and importance of spatial decision-making in society"
+  },
+  {
+    "topic": "Spatial Decision Support",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Define “spatial decision support system”"
+  },
+  {
+    "topic": "Spatial Decision Support",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Differentiate decision problems by their complexity, scope, nature of decision-makers, and spatiality"
+  },
+  {
+    "topic": "Spatial Decision Support",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Characterize the role of GIS as a generator for SDSS"
+  },
+  {
+    "topic": "Spatial Decision Support",
+    "theme": "Governance and Agency",
+    "area": "GIS&T and society",
+    "learning_objective": "Explain the role of descriptive and normative models in spatial decision support"
+  },
+  {
+    "topic": "Feminist Critiques of GIS",
+    "theme": "Critical Perspectives",
+    "area": "GIS&T and society",
+    "learning_objective": "Defend or refute the contention that the masculinist culture of computer work in general, and GIS work in particular, perpetuates gender inequality in GIS&T education and training and occupational segregation in the GIS&T workforce"
+  },
+  {
+    "topic": "Feminist Critiques of GIS",
+    "theme": "Critical Perspectives",
+    "area": "GIS&T and society",
+    "learning_objective": "Discuss the potential role of agency (individual action) in resisting dominant practices and in using GIS&T in ways that are consistent with feminist epistemologies and politics"
+  },
+  {
+    "topic": "Feminist Critiques of GIS",
+    "theme": "Critical Perspectives",
+    "area": "GIS&T and society",
+    "learning_objective": "Explain the argument that GIS and remote sensing foster a “disembodied” way of knowing the world"
+  }
+]
