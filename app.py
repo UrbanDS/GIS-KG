@@ -111,7 +111,7 @@ def search():
             index_sort = np.array(similarity_score_matrix).argsort()
             index_sort = np.squeeze(index_sort)
             results = []
-            for iii in range(0, 100):
+            for iii in range(0, 1000):
                 trackId = papers_info.index[index_sort[-1 - iii]]
                 try:
                     url = id_url_dict[trackId]

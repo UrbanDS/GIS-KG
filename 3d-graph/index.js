@@ -9,7 +9,6 @@ hl.onclick = function () {
   } else {
     hl.value = "Past to Recent";
   }
-  query();
 };
 
 // const colors = [

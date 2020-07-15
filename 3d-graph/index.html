@@ -44,12 +44,24 @@
       <div class="header">
         <h1 class="theme">GISBOK</h1>
         <div class="input-area">
-          <input
+          <!-- <input
             id="query"
             type="text"
             placeholder="Search"
             onchange="query()"
-          />
+          /> -->
+          <div class="search">
+            <input
+              type="text"
+              class="searchTerm"
+              id="query"
+              onchange="query()"
+              placeholder="Search..."
+            />
+            <button type="submit" class="searchButton" onclick="query()">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
           <div class="timeFilter">
             <label for="time1">From: </label>
             <input
@@ -69,7 +81,7 @@
               max="2025"
               step="1"
             />
-            <input type="submit" onclick="query()" />
+            <!-- <input type="submit" onclick="query()" /> -->
             <input type="submit" value="Recent to Past" id="sort" />
           </div>
         </div>
