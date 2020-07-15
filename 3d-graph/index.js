@@ -1,5 +1,16 @@
 const search = document.querySelector("#query");
 const result = document.querySelector(".result");
+let judge = true;
+const hl = document.getElementById("sort");
+hl.onclick = function () {
+  judge = !judge;
+  if (judge == true) {
+    hl.value = "Recent to Past";
+  } else {
+    hl.value = "Past to Recent";
+  }
+  query();
+};
 
 // const colors = [
 //   "#aec7e8",
@@ -76,6 +87,42 @@ const displayGraph = (data) => {
     });
 };
 
+function quickSorting(input, l, r) {
+  if (l < r) {
+    var pivot = partition(input, l, r);
+    quickSorting(input, l, pivot - 1);
+    quickSorting(input, pivot + 1, r);
+  }
+}
+
+function partition(input, l, r) {
+  var i = l - 1;
+  var j = l;
+  for (; j <= r; j++) {
+    if (
+      new Date(input[j].publishTime).valueOf() >=
+      new Date(input[r].publishTime).valueOf()
+    ) {
+      i++;
+      var temp = input[i];
+      input[i] = input[j];
+      input[j] = temp;
+    }
+  }
+  return i;
+}
+
+const reverseArr = (input) => {
+  const left = input.length - 1;
+  for (i = 0, j = left; i <= left; i++, j--) {
+    if (i < j) {
+      let temp = input[i];
+      input[i] = input[j];
+      input[j] = temp;
+    }
+  }
+};
+
 const query = async () => {
   result.innerHTML = "";
   const keyWord = search.value;
@@ -93,40 +140,59 @@ const query = async () => {
       themeCon.innerText = "Tree Node: " + treeNode;
       result.appendChild(themeCon);
       const years = readIntervel();
-
+      //fiter
+      const filterData = [];
       paperList.map((a_data) => {
-        //fiter
         const year = parseInt(a_data.publishTime.substring(0, 4));
         if (years.indexOf(year) != -1) {
-          const title = a_data.PaperTitle;
-          const abstract = a_data.Abstract;
-          const link = a_data.url;
-          // const author = "Author: " + a_data.author;
-          const author =
-            a_data.author == ""
-              ? "Author: Not found "
-              : "Author: " + a_data.author;
-
-          const publish = "Publish Time: " + a_data.publishTime;
-          const container = document.createElement("div");
-          const titleCon = document.createElement("a");
-          const abstractCon = document.createElement("p");
-          const info = document.createElement("p");
-          const authorCon = document.createElement("section");
-          const publishCon = document.createElement("section");
-          titleCon.innerText = title.toUpperCase();
-          titleCon.setAttribute("href", link);
-          titleCon.setAttribute("target", "_blank");
-          authorCon.innerText = author;
-          publishCon.innerText = publish;
-          abstractCon.innerText = abstract;
-          container.appendChild(titleCon);
-          info.appendChild(authorCon);
-          info.appendChild(publishCon);
-          container.appendChild(info);
-          container.appendChild(abstractCon);
-          result.appendChild(container);
+          filterData.push(a_data);
         }
+      });
+
+      const filterLen = filterData.length - 1;
+      const startNum = 0;
+      // console.log(filterData);
+
+      quickSorting(filterData, startNum, filterLen);
+      if (judge) {
+      } else {
+        reverseArr(filterData);
+      }
+
+      const total = filterData.length;
+      const totalCon = document.createElement("h4");
+      totalCon.innerText = "Results: " + total;
+      result.appendChild(totalCon);
+
+      filterData.map((a_data) => {
+        const title = a_data.PaperTitle;
+        const abstract = a_data.Abstract;
+        const link = a_data.url;
+        // const author = "Author: " + a_data.author;
+        const author =
+          a_data.author == ""
+            ? "Author: Not found "
+            : "Author: " + a_data.author;
+
+        const publish = "Publish Time: " + a_data.publishTime;
+        const container = document.createElement("div");
+        const titleCon = document.createElement("a");
+        const abstractCon = document.createElement("p");
+        const info = document.createElement("p");
+        const authorCon = document.createElement("section");
+        const publishCon = document.createElement("section");
+        titleCon.innerText = title.toUpperCase();
+        titleCon.setAttribute("href", link);
+        titleCon.setAttribute("target", "_blank");
+        authorCon.innerText = author;
+        publishCon.innerText = publish;
+        abstractCon.innerText = abstract;
+        container.appendChild(titleCon);
+        info.appendChild(authorCon);
+        info.appendChild(publishCon);
+        container.appendChild(info);
+        container.appendChild(abstractCon);
+        result.appendChild(container);
       });
     }
   } catch (error) {

@@ -19,7 +19,7 @@ body {
 }
 
 .side-bar {
-  width: 350px;
+  width: 550px;
   height: 100%;
   top: 0px;
   /* transition: -webkit-transform 0.5s cubic-bezier(0.54, 0.01, 0.57, 1.03) 0s; */
@@ -47,14 +47,17 @@ body {
 
 .result > div {
   margin-top: 10px;
+  word-spacing: 0.3em;
+  line-height: 1.4;
 }
 .result > div > a {
   color: deepskyblue;
 }
 
 .result > div > p > section {
-  margin-top: 1px;
+  margin-top: 10px;
   font-style: italic;
+  color: grey;
 }
 .scene-tooltip {
   /* z-index: 2; */
@@ -73,7 +76,7 @@ body {
 }
 input {
   /* height: 20px; */
-  width: 280px;
+  width: 450px;
   box-shadow: var(--shadow);
   border-radius: 0.4rem;
 
@@ -90,6 +93,10 @@ input:hover {
 .timeFilter > input {
   width: 60px;
   border-radius: 0.4rem;
+}
+
+#sort {
+  width: 110px;
 }
 #time1 {
   width: 50px;
@@ -110,7 +117,7 @@ h1 {
   z-index: 2;
   background-color: wheat;
   height: 160px;
-  width: 350px;
+  width: 550px;
 }
 
 .legend {
@@ -144,7 +151,7 @@ h1 {
 
 #selector {
   position: absolute;
-  left: 400px;
+  left: 600px;
   bottom: 30px;
   z-index: 1;
 }
