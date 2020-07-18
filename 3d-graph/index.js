@@ -24,6 +24,10 @@ const enterSearch = () => {
     query();
   }
 };
+const sort = document.querySelector("#sort");
+sort.onchange = function () {
+  refreshPaperList(PaperData);
+};
 
 // const colors = [
 //   "#aec7e8",
@@ -212,8 +216,8 @@ const refreshPaperList = (input) => {
     return;
   }
   const yearFilterData = yearFilter(input);
-  const sortData = sortProcess(yearFilterData);
-  displayResult(sortData);
+  const sortedData = sortProcess(yearFilterData);
+  displayResult(sortedData);
 };
 
 const query = async () => {
@@ -231,6 +235,7 @@ const query = async () => {
       document.getElementById("time1").value = "";
       document.getElementById("time2").value = "";
       document.getElementById("sort").value = "-";
+      PaperData = yearFilter(PaperData);
       displayResult(PaperData);
     }
   } catch (error) {
@@ -494,10 +499,10 @@ const getInterval = () => {
   var lowNum;
   var highNum;
   if (time1 == "" && time2 == "") {
-    return [1950, 2025];
+    return [1700, 2025];
   } else if (time1 == "" && time2 != "") {
     highNum = parseInt(time2);
-    return [1950, highNum];
+    return [1700, highNum];
   } else if (time1 != "" && time2 == "") {
     lowNum = parseInt(time1);
     return [lowNum, 2025];
