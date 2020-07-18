@@ -83,6 +83,7 @@ const fname = [
 
 const displayGraph = (data) => {
   const Graph = ForceGraph3D()(document.getElementById("3d-graph"));
+  Graph.refresh();
   Graph
     // .nodeLabel("id")
     // .nodeAutoColorBy("group")
@@ -95,7 +96,7 @@ const displayGraph = (data) => {
     // .nodeRelSize(6)
     .onNodeClick((node) => {
       const text = node.name.toString();
-      search.value = text;
+      search.value = text.substring(5);
       query();
     });
 };
@@ -142,7 +143,7 @@ const displayResult = (input) => {
   themeCon.innerText = "Tree Node: " + treeNode;
   result.appendChild(themeCon);
   const total = input.length;
-  const totalCon = document.createElement("h4");
+  const totalCon = document.createElement("h3");
   totalCon.innerText = "Results: " + total;
   result.appendChild(totalCon);
   input.map((a_data) => {
@@ -242,7 +243,8 @@ const loadgraph = () => {
   return new Promise((resolve, reject) => {
     axios
       // .get("./graph_lsa_all.json")
-      .get("./adjustedForcedGraph.json")
+      .get("./ForcedGraph2.json")
+      // .get("./adjustedForcedGraph.json")
       .then((res) => {
         resolve(res.data);
       })
