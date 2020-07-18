@@ -1,13 +1,27 @@
 const search = document.querySelector("#query");
 const result = document.querySelector(".result");
-let judge = true;
-const hl = document.getElementById("sort");
-hl.onclick = function () {
-  judge = !judge;
-  if (judge == true) {
-    hl.value = "Recent to Past";
-  } else {
-    hl.value = "Past to Recent";
+
+// const hl = document.getElementById("sort");
+// hl.onclick = function () {
+//   judge = !judge;
+//   if (judge == true) {
+//     hl.value = "Recent to Past";
+//   } else {
+//     hl.value = "Past to Recent";
+//   }
+// };
+
+let PaperData = [];
+let treeNode = "";
+const sub = document.querySelector(".refreshPaper");
+sub.onclick = function () {
+  refreshPaperList(PaperData);
+};
+
+const enterSearch = () => {
+  var event = window.event || arguments.callee.caller.arguments[0];
+  if (event.keyCode == 13) {
+    query();
   }
 };
 
@@ -122,8 +136,86 @@ const reverseArr = (input) => {
   }
 };
 
-const query = async () => {
+const displayResult = (input) => {
   result.innerHTML = "";
+  const themeCon = document.createElement("h3");
+  themeCon.innerText = "Tree Node: " + treeNode;
+  result.appendChild(themeCon);
+  const total = input.length;
+  const totalCon = document.createElement("h4");
+  totalCon.innerText = "Results: " + total;
+  result.appendChild(totalCon);
+  input.map((a_data) => {
+    const title = a_data.PaperTitle;
+    const abstract = a_data.Abstract;
+    const link = a_data.url;
+    // const author = "Author: " + a_data.author;
+    const author =
+      a_data.author == "" ? "Author: Not found " : "Author: " + a_data.author;
+
+    const publish = "Publish Time: " + a_data.publishTime;
+    const container = document.createElement("div");
+    const titleCon = document.createElement("a");
+    const abstractCon = document.createElement("p");
+    const header = document.createElement("header");
+    const info = document.createElement("p");
+    const authorCon = document.createElement("section");
+    const publishCon = document.createElement("section");
+    titleCon.innerText = title.toUpperCase();
+    titleCon.setAttribute("href", link);
+    titleCon.setAttribute("target", "_blank");
+    authorCon.innerText = author;
+    publishCon.innerText = publish;
+    abstractCon.innerText = abstract;
+    header.appendChild(titleCon);
+
+    info.appendChild(authorCon);
+    info.appendChild(publishCon);
+    header.appendChild(info);
+    result.appendChild(header);
+    container.appendChild(header);
+    container.appendChild(abstractCon);
+    result.appendChild(container);
+  });
+};
+
+const yearFilter = (input) => {
+  const years = readIntervel();
+  const filterData = [];
+  input.map((a_data) => {
+    const year = parseInt(a_data.publishTime.substring(0, 4));
+    if (years.indexOf(year) != -1) {
+      filterData.push(a_data);
+    }
+  });
+  return filterData;
+};
+
+const sortProcess = (input) => {
+  const sortSit = document.getElementById("sort");
+  if (sortSit.value == "-") {
+    return input;
+  }
+  const right = input.length - 1;
+  const startNum = 0;
+  quickSorting(input, startNum, right);
+  if (sortSit.value == "new") {
+  } else {
+    reverseArr(input);
+  }
+  return input;
+};
+
+const refreshPaperList = (input) => {
+  if (input.length == 0) {
+    return;
+  }
+  const yearFilterData = yearFilter(input);
+  const sortData = sortProcess(yearFilterData);
+  displayResult(sortData);
+};
+
+const query = async () => {
   const keyWord = search.value;
   const base = "http://0.0.0.0:5000/search?query=";
   const str = keyWord.toLowerCase();
@@ -132,67 +224,13 @@ const query = async () => {
     const response = await fetch(url);
     if (response.ok) {
       let list = await response.json();
-      const treeNode = list.treenode;
+      treeNode = list.treenode;
       adjust_data(treeNode);
-      const paperList = list.paper_list;
-      const themeCon = document.createElement("h3");
-      themeCon.innerText = "Tree Node: " + treeNode;
-      result.appendChild(themeCon);
-      const years = readIntervel();
-      //fiter
-      const filterData = [];
-      paperList.map((a_data) => {
-        const year = parseInt(a_data.publishTime.substring(0, 4));
-        if (years.indexOf(year) != -1) {
-          filterData.push(a_data);
-        }
-      });
-
-      const filterLen = filterData.length - 1;
-      const startNum = 0;
-      // console.log(filterData);
-
-      quickSorting(filterData, startNum, filterLen);
-      if (judge) {
-      } else {
-        reverseArr(filterData);
-      }
-
-      const total = filterData.length;
-      const totalCon = document.createElement("h4");
-      totalCon.innerText = "Results: " + total;
-      result.appendChild(totalCon);
-
-      filterData.map((a_data) => {
-        const title = a_data.PaperTitle;
-        const abstract = a_data.Abstract;
-        const link = a_data.url;
-        // const author = "Author: " + a_data.author;
-        const author =
-          a_data.author == ""
-            ? "Author: Not found "
-            : "Author: " + a_data.author;
-
-        const publish = "Publish Time: " + a_data.publishTime;
-        const container = document.createElement("div");
-        const titleCon = document.createElement("a");
-        const abstractCon = document.createElement("p");
-        const info = document.createElement("p");
-        const authorCon = document.createElement("section");
-        const publishCon = document.createElement("section");
-        titleCon.innerText = title.toUpperCase();
-        titleCon.setAttribute("href", link);
-        titleCon.setAttribute("target", "_blank");
-        authorCon.innerText = author;
-        publishCon.innerText = publish;
-        abstractCon.innerText = abstract;
-        container.appendChild(titleCon);
-        info.appendChild(authorCon);
-        info.appendChild(publishCon);
-        container.appendChild(info);
-        container.appendChild(abstractCon);
-        result.appendChild(container);
-      });
+      PaperData = list.paper_list;
+      document.getElementById("time1").value = "";
+      document.getElementById("time2").value = "";
+      document.getElementById("sort").value = "-";
+      displayResult(PaperData);
     }
   } catch (error) {
     console.log(error);

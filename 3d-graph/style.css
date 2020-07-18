@@ -49,23 +49,27 @@ body {
   margin-top: 10px;
   word-spacing: 0.3em;
   line-height: 1.4;
+  box-shadow: 0 1px 7px #333;
+  padding: 10px;
 }
-.result > div > a {
+/* .result > div > header {
+} */
+.result > div > header > a {
   color: deepskyblue;
 }
-
-.result > div > p > section {
-  margin-top: 10px;
-  font-style: italic;
-  color: grey;
+.result > div > header > p > section {
+  font: 0.9em sans-serif;
 }
+
 .scene-tooltip {
   /* z-index: 2; */
   width: 200px;
   word-wrap: break-word;
   overflow: auto;
 }
-
+.result > div > p {
+  line-height: 1.5;
+}
 #3d-graph {
   position: absolute;
 }
@@ -87,7 +91,13 @@ input {
 input:hover {
   background-color: #d1e9e9;
 }
-
+form {
+  display: inline;
+}
+#sort {
+  border: 3px solid #00b4cc;
+  border-radius: 5px 0 0 5px;
+}
 .timeFilter {
   margin-top: 10px;
 }
@@ -95,7 +105,9 @@ input:hover {
   width: 60px;
   border-radius: 0.4rem;
 }
-
+.refreshPaper {
+  background-color: white;
+}
 #sort {
   width: 110px;
   background-color: white;

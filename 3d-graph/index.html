@@ -55,15 +55,15 @@
               type="text"
               class="searchTerm"
               id="query"
-              onchange="query()"
-              placeholder="Search..."
+              onkeydown="enterSearch()"
+              placeholder="Search here..."
             />
             <button type="submit" class="searchButton" onclick="query()">
               <i class="fa fa-search"></i>
             </button>
           </div>
           <div class="timeFilter">
-            <label for="time1">From: </label>
+            <label for="time1">Filter by Year: </label>
             <input
               id="time1"
               type="number"
@@ -72,7 +72,7 @@
               max="2025"
               step="1"
             />
-            <label for="time2">to: </label>
+            <label for="time2"> --- </label>
             <input
               id="time2"
               type="number"
@@ -82,7 +82,15 @@
               step="1"
             />
             <!-- <input type="submit" onclick="query()" /> -->
-            <input type="submit" value="Recent to Past" id="sort" />
+            <form>
+              <label for="sort">Sort By:</label>
+              <select id="sort">
+                <option value="-">---</option>
+                <option value="new">New to Old</option>
+                <option value="old">Old to New</option>
+              </select>
+            </form>
+            <input type="submit" class="refreshPaper" />
           </div>
         </div>
       </div>
