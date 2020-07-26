@@ -134,7 +134,7 @@ const displayGraph = (data) => {
     // .nodeColor((node) => {
     //   return colors[node.group - 1];
     // })
-    // .cameraPosition({ z: distance })
+    .cameraPosition({ z: distance })
     .nodeThreeObject(nodeRender(0))
     // .forceEngine("ngraph")
     .graphData(data)
