@@ -1,15 +1,32 @@
 const search = document.querySelector("#query");
 const result = document.querySelector(".result");
+let isRotationActive = false;
+let angle = 0;
+const distance = 1500;
+const Graph = ForceGraph3D()(document.getElementById("3d-graph"));
+document.getElementById("rotationToggle").addEventListener("click", (event) => {
+  isRotationActive = !isRotationActive;
+  event.target.innerHTML = `${isRotationActive ? "Pause" : "Resume"} Rotation`;
+});
+setInterval(() => {
+  if (isRotationActive) {
+    Graph.cameraPosition({
+      x: distance * Math.sin(angle),
+      z: distance * Math.cos(angle),
+    });
+    angle += Math.PI / 300;
+  }
+}, 10);
 
-// const hl = document.getElementById("sort");
-// hl.onclick = function () {
-//   judge = !judge;
-//   if (judge == true) {
-//     hl.value = "Recent to Past";
-//   } else {
-//     hl.value = "Past to Recent";
-//   }
-// };
+const hl = document.getElementById("sort");
+hl.onclick = function () {
+  judge = !judge;
+  if (judge == true) {
+    hl.value = "Recent to Past";
+  } else {
+    hl.value = "Past to Recent";
+  }
+};
 
 let PaperData = [];
 let treeNode = "";
@@ -29,6 +46,31 @@ sort.onchange = function () {
   refreshPaperList(PaperData);
 };
 
+const authorFilter = (input) => {
+  const authorIn = document.querySelector("#au");
+  if (authorIn.value == "") {
+    return input;
+  }
+  const authorInput = authorIn.value.toLowerCase();
+  const res = [];
+  if (authorInput == "not found") {
+    input.map((a_data) => {
+      const author = a_data.author;
+      if (author == "") {
+        res.push(a_data);
+      }
+    });
+  }
+
+  input.map((a_data) => {
+    const author = a_data.author.toLowerCase();
+    if (author.indexOf(authorInput) != -1) {
+      res.push(a_data);
+    }
+  });
+  return res;
+};
+
 // const colors = [
 //   "#aec7e8",
 //   "#ffbb78",
@@ -43,16 +85,16 @@ sort.onchange = function () {
 // ];
 
 const colors = [
-  "#935529",
-  "#88b04b",
-  "#009b77",
-  "#dd4124",
-  "#d65076",
-  "#efc050",
-  "#5b5ea6",
-  "#9b2335",
-  "#dfcfbe",
-  "#fa9a85",
+  "red",
+  "royalblue",
+  "magenta",
+  "cyan",
+  "#7da67d",
+  "lawngreen",
+  "yellow",
+  "grey",
+  "#FF8C00",
+  "#c880ff",
 ];
 
 const aname = ["DA", "DM", "PD", "CV", "FC", "KE", "AM", "DC", "CP", "GS"];
@@ -86,18 +128,19 @@ const fname = [
 // };
 
 const displayGraph = (data) => {
-  const Graph = ForceGraph3D()(document.getElementById("3d-graph"));
-  Graph.refresh();
   Graph
     // .nodeLabel("id")
     // .nodeAutoColorBy("group")
     // .nodeColor((node) => {
     //   return colors[node.group - 1];
     // })
+    // .cameraPosition({ z: distance })
     .nodeThreeObject(nodeRender(0))
     // .forceEngine("ngraph")
     .graphData(data)
+    .cooldownTicks(100)
     // .nodeRelSize(6)
+    .onEngineStop(() => Graph.zoomToFit(400))
     .onNodeClick((node) => {
       const text = node.name.toString();
       search.value = text.substring(5);
@@ -173,7 +216,6 @@ const displayResult = (input) => {
     publishCon.innerText = publish;
     abstractCon.innerText = abstract;
     header.appendChild(titleCon);
-
     info.appendChild(authorCon);
     info.appendChild(publishCon);
     header.appendChild(info);
@@ -215,13 +257,18 @@ const refreshPaperList = (input) => {
   if (input.length == 0) {
     return;
   }
-  const yearFilterData = yearFilter(input);
+  const authData = authorFilter(input);
+  const yearFilterData = yearFilter(authData);
   const sortedData = sortProcess(yearFilterData);
+
   displayResult(sortedData);
 };
 
 const query = async () => {
   const keyWord = search.value;
+  if (keyWord == "") {
+    return;
+  }
   const base = "http://0.0.0.0:5000/search?query=";
   const str = keyWord.toLowerCase();
   try {
@@ -234,6 +281,7 @@ const query = async () => {
       PaperData = list.paper_list;
       document.getElementById("time1").value = "";
       document.getElementById("time2").value = "";
+      document.getElementById("au").value = "";
       document.getElementById("sort").value = "-";
       PaperData = yearFilter(PaperData);
       displayResult(PaperData);

@@ -81,10 +81,13 @@
               max="2025"
               step="1"
             />
+            <label for="au"> Filter Author: </label>
+            <input id="au" type="text" placeholder="Author" />
             <input type="submit" value="Filter" class="refreshPaper" />
             <!-- <input type="submit" onclick="query()" /> -->
+
             <form>
-              <label for="sort">Sort By:</label>
+              <label for="sort">Sort:</label>
               <select id="sort">
                 <option value="-">---</option>
                 <option value="new">New to Old</option>
@@ -97,6 +100,9 @@
 
       <div class="result"></div>
     </div>
+    <button id="rotationToggle">
+      Resume Rotation
+    </button>
     <div id="selector">
       <select onchange="categoryDataDisplay()" value="ALL Area" id="selectVal">
         <option value="ALL">ALL Area</option>

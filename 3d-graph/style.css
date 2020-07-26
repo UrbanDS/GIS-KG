@@ -19,7 +19,7 @@ body {
 }
 
 .side-bar {
-  width: 550px;
+  width: 22%;
   height: 100%;
   top: 0px;
   /* transition: -webkit-transform 0.5s cubic-bezier(0.54, 0.01, 0.57, 1.03) 0s; */
@@ -42,7 +42,7 @@ body {
   overflow-y: scroll;
   height: 80%; */
   padding: 20px;
-  margin-top: 140px;
+  margin-top: 180px;
 }
 
 .result > div {
@@ -92,8 +92,10 @@ input:hover {
   background-color: #d1e9e9;
 }
 form {
-  display: inline;
+  display: block;
+  margin-top: 5px;
 }
+
 #sort {
   border: 3px solid #00b4cc;
   border-radius: 5px 0 0 5px;
@@ -118,6 +120,9 @@ form {
 #time2 {
   width: 50px;
 }
+#au {
+  width: 55px;
+}
 
 h1 {
   height: 30px;
@@ -128,10 +133,10 @@ h1 {
 
 .header {
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   background-color: wheat;
-  height: 160px;
-  width: 550px;
+  height: 180px;
+  width: 21.5%;
 }
 
 .legend {
@@ -161,6 +166,18 @@ h1 {
 }
 #caption > b {
   font-size: 60px;
+}
+
+#rotationToggle {
+  position: absolute;
+  left: 930px;
+  bottom: 30px;
+  z-index: 1;
+  background-color: black;
+  border-radius: 5px 0 0 5px;
+  border: 1px white solid;
+  color: #ccc;
+  font: 16px serif;
 }
 
 #selector {
