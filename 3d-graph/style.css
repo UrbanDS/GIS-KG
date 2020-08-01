@@ -170,7 +170,7 @@ h1 {
 
 #rotationToggle {
   position: absolute;
-  left: 930px;
+  left: 37%;
   bottom: 30px;
   z-index: 1;
   background-color: black;
@@ -182,7 +182,7 @@ h1 {
 
 #selector {
   position: absolute;
-  left: 600px;
+  left: 24%;
   bottom: 30px;
   z-index: 1;
 }
