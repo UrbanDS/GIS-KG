@@ -3,8 +3,8 @@ This is a website for visulizing our GIST graph. It povides multiple view/entry.
 
 ---
 ## Install
-To be updated. We will release our data and code after acceptance of the paper.
-Most of the front end can be directly access. But there is no backend service right now.
+Download the data from https://drive.google.com/file/d/1xCiJacmdRp1RSsbjTW4Equ9Fl3MeQ1aL/view?usp=sharing
+Most of the front end can be directly access. The backend can be installed following the link above.
 The data is updated on March-27-2020
 
 ---
